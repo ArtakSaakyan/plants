@@ -1,0 +1,65 @@
+.pagination {
+  --d-flex: flex;
+  display: var(--d-flex);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.pagination--first .icon:after {
+  content: '\eac3';
+}
+
+.pagination--prev .icon:after {
+  content: '\e5cb';
+}
+
+.pagination--next .icon:after {
+  content: '\e5cc';
+}
+
+.pagination--last .icon:after {
+  content: '\eac9';
+}
+
+.pagination--page {
+  --d-block: block;
+  display: var(--d-block);
+  flex: 0 0 size(23);
+  padding: size(8) 0;
+  text-decoration: none;
+  color: inherit;
+  @include media(md) {
+    flex-basis: size(60);
+  }
+  &:hover {
+    @media (pointer: fine) {
+      color: $primary;
+    }
+  }
+  &:visited {
+    color: $secondary;
+  }
+}
+
+.pagination--divider {
+  --d-block: block;
+  display: var(--d-block);
+  flex: 0 0 size(23);
+  padding: size(8) 0;
+  @include media(md) {
+    flex-basis: size(60);
+  }
+}
+
+.pagination--current {
+  flex: 0 0 size(23);
+  padding: size(8) 0 size(6);
+  font-weight: 500;
+  color: $primary;
+  border-bottom: $primary 2px solid;
+  @include media(md) {
+    flex-basis: size(60);
+  }
+}

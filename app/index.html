@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Plants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  @@include("templates/favicon.html")
+  <link href="assets/css/main.css" rel="stylesheet">
+  <script src="assets/js/main.js"></script>
+</head>
+<body>
+@@include("templates/sections/header/header.html")
+<main class="main">
+  @@include("templates/sections/welcome/welcome.html")
+  @@include("templates/sections/about/about.html")
+  @@include("templates/sections/service/service.html")
+  @@include("templates/sections/prices/prices.html")
+  @@include("templates/sections/contacts/contacts.html")
+</main>
+@@include("templates/sections/footer/footer.html")
+</body>
+</html>

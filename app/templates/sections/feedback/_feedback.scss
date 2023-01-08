@@ -1,0 +1,42 @@
+.feedback {
+}
+.feedback--content {
+
+}
+.feedback--photo {
+  --adaptive-box: #{height(257,151)};
+  width: size(103);
+  position: absolute;
+  top: size(-30);
+  right: 0;
+  @include media(md) {
+    width: size(257);
+    top: size(-44);
+    right: size(46);
+  }
+  @include media(lg) {
+    left: size(104);
+    right: auto;
+    top: size(140);
+    width: size(370);
+    align-self: start;
+  }
+}
+.feedback--form {
+  .form--checkbox-icon {
+    align-self: start;
+  }
+  .btn--size-md {
+    @include media(md) {
+      min-width: size(280);
+      justify-self: end;
+    }
+  }
+}
+.feedback--form-grid {
+  --grid-gap-x: #{size(8)};
+  --grid-gap-y: #{size(8)};
+  @include media(lg) {
+    --grid-gap-y: #{size(12)};
+  }
+}

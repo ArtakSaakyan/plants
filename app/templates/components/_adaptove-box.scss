@@ -1,0 +1,33 @@
+.adaptive-box {
+  --margin-t: 0;
+  --margin-r: 0;
+  --margin-b: 0;
+  --margin-l: 0;
+  --padding-t: 0;
+  --padding-r: 0;
+  --padding-b: 0;
+  --padding-l: 0;
+  --d-block: block;
+  overflow: hidden;
+  display: var(--d-block);
+  width: 100%;
+  position: relative;
+  margin: var(--margin-t) var(--margin-r) var(--margin-b) var(--margin-l);
+  padding: var(--padding-t) var(--padding-r) var(--padding-b) var(--padding-l);
+
+  &:before {
+    content: '';
+    display: block;
+    padding: 0 0 var(--adaptive-box) 0;
+  }
+}
+
+.adaptive-box--image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-position: center;
+  object-fit: cover;
+}

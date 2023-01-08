@@ -1,0 +1,53 @@
+.tabs {
+  --d-grid: grid;
+  display: var(--d-grid);
+  grid-template-areas: 'header' 'body';
+}
+
+.tabs--header {
+  --d-flex: flex;
+  display: var(--d-flex);
+}
+
+//.tabs--header-scroll {
+//  grid-area: header;
+//  overflow-x: auto;
+//  overflow-y: hidden;
+//  width: 100%;
+//
+//  &::-webkit-scrollbar {
+//    -webkit-appearance: none;
+//    width: 0;
+//    height: 0;
+//  }
+//}
+
+.tabs--btn {
+  flex-grow: 1;
+  padding: size(16);
+  white-space: nowrap;
+  color: $secondary;
+  background: $grey;
+  cursor: pointer;
+  transition: $td;
+  @include media(lg) {
+    padding: size(16) size(32);
+  }
+  &:not(.active):hover {
+    @media (pointer: fine) {
+      background: $grey-hover;
+    }
+    &:active {
+      background: $grey-pressed;
+    }
+  }
+  &.active {
+    background: #fff;
+    color: $black;
+  }
+}
+
+.tabs--body {
+  grid-area: body;
+  display: none;
+}

@@ -1,0 +1,35 @@
+[class*="bg-color"] {
+  background-color: var(--background-color);
+}
+.bg-color {
+  &_carrot {
+    --background-color: #ed8e00;
+  }
+  &_lime {
+    --background-color: #8ebd00;
+  }
+  &_sea {
+    --background-color: #29a4a2;
+  }
+  &_red {
+    --background-color: #a90602;
+  }
+  &_purple {
+    --background-color: #834fef;
+  }
+  &_primary {
+    --background-color: #{$primary};
+  }
+  &_corporate {
+    --background-color: #{$corporate};
+  }
+  &_secondary {
+    --background-color: #{$secondary};
+  }
+  &_white {
+    --background-color: #fff;
+  }
+  &_grey {
+    --background-color: #{$background};
+  }
+}

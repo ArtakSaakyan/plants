@@ -1,0 +1,21 @@
+[class*="show"] {
+  --d-inline: none;
+  --d-block: none;
+  --d-inline-block: none;
+  --d-flex: none;
+  --d-inline-flex: none;
+  --d-grid: none;
+}
+
+@each $bp, $value in $media-breakpoints {
+  .show\@#{$bp} {
+    @include media($bp) {
+      --d-inline: inline;
+      --d-block: block;
+      --d-inline-block: inline-block;
+      --d-flex: flex;
+      --d-inline-flex: inline-flex;
+      --d-grid: grid;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.menu {
+  --d-flex: flex;
+  display: var(--d-flex);
+  font-size: size(16);
+  font-weight: 500;
+  line-height: 1.25;
+  @include media(lg, max) {
+    flex-direction: column;
+  }
+  @include media(lg) {
+    align-items: center;
+  }
+
+  a, span {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: $td;
+  }
+
+  a:hover {
+    @media (pointer: fine) {
+      color: $primary;
+    }
+
+    &:active {
+      color: $corporate;
+    }
+  }
+
+  .active {
+    color: $corporate;
+  }
+}

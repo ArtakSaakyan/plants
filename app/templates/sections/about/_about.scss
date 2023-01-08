@@ -1,0 +1,43 @@
+.about {
+  background-color: $white;
+}
+
+.about-inner {
+  @include media(lg) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.about-info {
+  @include media(lg) {
+    max-width: size(605);
+  }
+}
+
+.about-title {
+  @include media(lg) {
+    width: size(463);
+  }
+}
+
+.about-img {
+  width: size(150);
+  margin: 0 auto;
+
+  @include media(md) {
+    width: size(250);
+  }
+
+  @include media(lg) {
+    width: size(464);
+    margin: inherit;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

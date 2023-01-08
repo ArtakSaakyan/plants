@@ -1,0 +1,38 @@
+$base-unit: 16;
+
+$media-breakpoints: (
+  'sm': 576,
+  'md': 768,
+  'lg': 992,
+  'xl': 1200,
+  'xxl': 1920,
+);
+
+$layout-size: (
+  'sm': (380, 'res'),
+  'md': (768, 'res'),
+  'lg': (1440, 'res'),
+  'xl': (1920, 'fix'),
+  'xxl': (1920, 'res'),
+);
+
+$container-width: (
+  'md': 718,
+  'lg': 1270,
+);
+
+$container-padding: (
+  'default': 25,
+);
+
+$grid-gap: (
+  'default': 8,
+  'md': 16,
+  'lg': 24,
+);
+
+$block-intervals: (auto, 0, 4, 8, 10, 12, 14, 16, 20, 22, 24, 25, 27, 28, 30, 32, 34, 36, 40, 42, 44, 48, 56, 60, 64, 70, 72, 80, 88, 95, 100, 115, 120, 132, 152, 250);
+
+$border-radius: (0, 2, 4, 8);
+
+$td: .3s;

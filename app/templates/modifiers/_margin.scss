@@ -1,0 +1,93 @@
+[class*="m-"] {
+  --margin-t: 0;
+  --margin-r: 0;
+  --margin-b: 0;
+  --margin-l: 0;
+  margin: var(--margin-t) var(--margin-r) var(--margin-b) var(--margin-l);
+}
+[class*="mh-"] {
+  --margin-r: 0;
+  --margin-l: 0;
+  margin-left: var(--margin-l);
+  margin-right: var(--margin-r);
+}
+[class*="mv-"] {
+  --margin-t: 0;
+  --margin-b: 0;
+  margin-top: var(--margin-t);
+  margin-bottom: var(--margin-b);
+}
+[class*="mt-"] {
+  --margin-t: 0;
+  margin-top: var(--margin-t);
+}
+[class*="mr-"] {
+  --margin-r: 0;
+  margin-right: var(--margin-r);
+}
+[class*="mb-"] {
+  --margin-b: 0;
+  margin-bottom: var(--margin-b);
+}
+[class*="ml-"] {
+  --margin-l: 0;
+  margin-left: var(--margin-l);
+}
+@each $value in $block-intervals {
+  .mt-#{$value} {
+    --margin-t: #{size($value)};
+  }
+  .mr-#{$value} {
+    --margin-r: #{size($value)};
+  }
+  .mb-#{$value} {
+    --margin-b: #{size($value)};
+  }
+  .ml-#{$value} {
+    --margin-l: #{size($value)};
+  }
+  .mh-#{$value} {
+    --margin-l: #{size($value)};
+    --margin-r: #{size($value)};
+  }
+  .mv-#{$value} {
+    --margin-t: #{size($value)};
+    --margin-b: #{size($value)};
+  }
+  .m-#{$value} {
+    --margin-t: #{size($value)};
+    --margin-r: #{size($value)};
+    --margin-b: #{size($value)};
+    --margin-l: #{size($value)};
+  }
+  @each $bp, $width in $media-breakpoints {
+    @media (min-width: $width + px) {
+      .mt-#{$value}\@#{$bp} {
+        --margin-t: #{size($value)};
+      }
+      .mr-#{$value}\@#{$bp} {
+        --margin-r: #{size($value)};
+      }
+      .mb-#{$value}\@#{$bp} {
+        --margin-b: #{size($value)};
+      }
+      .ml-#{$value}\@#{$bp} {
+        --margin-l: #{size($value)};
+      }
+      .mh-#{$value}\@#{$bp} {
+        --margin-l: #{size($value)};
+        --margin-r: #{size($value)};
+      }
+      .mv-#{$value}\@#{$bp} {
+        --margin-t: #{size($value)};
+        --margin-b: #{size($value)};
+      }
+      .m-#{$value}\@#{$bp} {
+        --margin-t: #{size($value)};
+        --margin-r: #{size($value)};
+        --margin-b: #{size($value)};
+        --margin-l: #{size($value)};
+      }
+    }
+  }
+}

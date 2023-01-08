@@ -1,0 +1,161 @@
+.prices {
+  background-color: $white;
+}
+
+.prices-inner {
+  @include media(md) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.prices-title {
+  color: $black;
+  text-align: center;
+  font-weight: 700;
+  font-family: var(--primary-font);
+
+  @include media(md) {
+    text-align-last: left;
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  @include media(lg) {
+    grid-column: 1;
+  }
+}
+
+.prices-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: size(224);
+  height: min-content;
+  margin: 0 auto;
+  padding: size(30) size(20);
+  border: size(1) solid $border;
+  border-radius: size(20);
+  gap: size(14);
+
+  @include media(md) {
+    width: size(332);
+    padding: size(34) size(40);
+    margin: inherit;
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
+
+.prices-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: min-content;
+  padding: size(16) size(30);
+  background: $body;
+  border-radius: size(20);
+  transition: $td;
+  cursor: pointer;
+
+  @include media(md) {
+    padding: size(16) size(40);
+  }
+
+  &:hover {
+    background-color: #D6E7D2;
+  }
+}
+
+.prices-item__title {
+  margin: 0;
+  color: $black;
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+
+.prices-item__expand {
+  position: relative;
+  width: size(16);
+  height: size(16);
+  border-radius: 50%;
+  background: #D9D9D9;
+
+  .icon {
+    &::after {
+      content: '\e5cf';
+      color: $title;
+      font-size: size(14);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.prices-info {
+  @include media(md) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  @include media(lg) {
+    grid-row: span 2;
+  }
+}
+
+.prices-description {
+  width: size(230);
+  margin: 0 auto;
+  color: $black;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: size(20);
+  font-weight: 700;
+  line-height: size(35);
+
+  @include media(md) {
+    width: auto;
+    margin-left: auto;
+    margin-right: inherit;
+    text-align: right;
+    font-size: size(25);
+  }
+
+  @include media(lg) {
+    width: size(452);
+    font-size: size(40);
+    line-height: size(50);
+  }
+}
+
+.prices-btn {
+  display: flex;
+  margin: 0 auto;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+
+  @include media(md) {
+    margin-left: auto;
+    margin-right: inherit;
+  }
+}
+
+.prices-leaves {
+  display: none;
+
+  @include media(md) {
+    max-width: size(152);
+    margin-left: auto;
+    display: block;
+  }
+
+  img {
+    @include media(md) {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

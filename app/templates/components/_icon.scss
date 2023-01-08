@@ -1,0 +1,29 @@
+.icon {
+  --margin-t: 0;
+  --margin-r: 0;
+  --margin-b: 0;
+  --margin-l: 0;
+  --padding-t: 0;
+  --padding-r: 0;
+  --padding-b: 0;
+  --padding-l: 0;
+  --d-block: block;
+  display: var(--d-block);
+  --icon-size: #{size(24)};
+  flex: 0 0 var(--icon-size);
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin: var(--margin-t) var(--margin-r) var(--margin-b) var(--margin-l);
+  padding: var(--padding-t) var(--padding-r) var(--padding-b) var(--padding-l);
+  font-style: normal;
+  object-position: center;
+  object-fit: contain;
+  color: var(--text-color);
+  fill: currentColor;
+  &:after {
+    font-family: 'Material Symbols Outlined';
+    font-size: var(--icon-size);
+    font-weight: 400;
+    line-height: 1;
+  }
+}

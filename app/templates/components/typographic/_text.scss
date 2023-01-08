@@ -1,0 +1,43 @@
+.text {
+  --margin-t: 0;
+  --margin-r: 0;
+  --margin-b: 0;
+  --margin-l: 0;
+  --padding-t: 0;
+  --padding-r: 0;
+  --padding-b: 0;
+  --padding-l: 0;
+  --d-block: block;
+  display: var(--d-block);
+  margin: var(--margin-t) var(--margin-r) var(--margin-b) var(--margin-l);
+  padding: var(--padding-t) var(--padding-r) var(--padding-b) var(--padding-l);
+
+  &--size {
+    &-sm {
+      font-size: size(12);
+      line-height: 1;
+      @include media(lg) {
+        font-size: size(14);
+        line-height: 1.14;
+      }
+    }
+
+    &-md {
+      font-size: size(14);
+      line-height: 1.14;
+      @include media(lg) {
+        font-size: size(16);
+        line-height: 1.25;
+      }
+    }
+
+    &-lg {
+      font-size: size(14);
+      line-height: 1.43;
+      @include media(lg) {
+        font-size: size(16);
+        line-height: 1.25;
+      }
+    }
+  }
+}

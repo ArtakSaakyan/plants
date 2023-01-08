@@ -1,0 +1,16 @@
+[class*="order-"] {
+  order: var(--order);
+}
+
+@for $i from 0 through 11 {
+  .order-#{$i} {
+    --order: #{$i};
+  }
+  @each $bp, $width in $media-breakpoints {
+    .order-#{$i}\@#{$bp} {
+      @include media($bp) {
+        --order: #{$i};
+      }
+    }
+  }
+}

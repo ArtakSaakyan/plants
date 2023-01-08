@@ -1,0 +1,57 @@
+<div id="modal-shadow" class="modal-shadow"></div>
+<div id="modal-ordering" class="modal pv-24 ph-16 p-32@lg bdrs-4">
+  <h2 class="title title--size-lg mb-8 mb-12@lg">Оформление заказа</h2>
+  <p class="title title--size-xs mb-16 mb-32@lg">Оставьте свои контактые данные и&nbsp;мы&nbsp;проконсультируем вас</p>
+  <form id="form-ordering" class="form" method="post" action="/">
+    <div class="grid-1 grid-2@md form--grid">
+      <label class="form--text col-2@md">
+        <input type="text" name="firstname" placeholder="Имя" required>
+        <span class="form--text-placeholder">Имя <span>*</span></span>
+        <span class="form--text-error">Укажите имя</span>
+      </label>
+      <label class="form--text">
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <span class="form--text-placeholder">Телефон <span>*</span></span>
+        <span class="form--text-error">Укажите Телефон</span>
+      </label>
+      <label class="form--text">
+        <input type="email" name="email" placeholder="E-mail" required>
+        <span class="form--text-placeholder">E-mail <span>*</span></span>
+        <span class="form--text-error">Укажите E-mail</span>
+      </label>
+      <label class="form--textarea col-2@md">
+            <textarea name="message" placeholder="Комментарий к заазу" maxlength="200"
+                      data-text-counter></textarea>
+        <span class="form--textarea-placeholder">Комментарий к заазу</span>
+        <span class="form--textarea-counter">
+              <span class="form--textarea-counter-hint">Сообщение</span>
+              <span class="form--textarea-counter-current" data-text-current></span>/<span
+            class="form--textarea-counter-limit" data-text-limit></span>
+            </span>
+      </label>
+      <label class="form--checkbox col-2@md">
+        <input type="checkbox" data-agreement>
+        <svg class="form--checkbox-icon mr-12 bdrs-2">
+          <use xlink:href="assets/sprites/icons.svg#checkbox"></use>
+        </svg>
+        <span class="form--checkbox-text">Я&nbsp;ознакомился с&nbsp;<a href="#">политикой конфиденциальности</a> и&nbsp;принимаю условия обработки персональных данных</span>
+      </label>
+      <button class="btn btn--size-md btn--theme-corporate col-2@md" disabled data-submit>Заказать консультацию
+      </button>
+    </div>
+  </form>
+  <button class="btn btn--size-sm btn--theme-grey" data-modal-close>
+    <i class="icon"></i>
+  </button>
+</div>
+<div id="modal-thanks" class="modal pv-24 ph-16 p-32@lg bdrs-4">
+  <h2 class="title title--size-lg mb-8 tac">Спасибо за&nbsp;обращение!</h2>
+  <p class="text text--size-md mb-24 mb-32@lg tac">Оставьте свои контактые данные и&nbsp;мы&nbsp;проконсультируем вас</p>
+  <div class="modal--buttons">
+    <a href="/catalogue.html" class="btn btn--size-md btn--theme-primary mb-16 mb-0@md mr-16@md">В&nbsp;каталог</a>
+    <a href="/" class="btn btn--size-md btn--theme-grey">На&nbsp;главную</a>
+  </div>
+  <button class="btn btn--size-sm btn--theme-grey" data-modal-close>
+    <i class="icon"></i>
+  </button>
+</div>

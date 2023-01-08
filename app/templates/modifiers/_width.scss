@@ -1,0 +1,24 @@
+[class*="w-full"] {
+  width: var(--width);
+}
+[class*="w-auto"] {
+  width: var(--width);
+}
+.w-full {
+  --width: 100%;
+}
+.w-auto {
+  --width: auto;
+}
+@each $bp, $value in $media-breakpoints {
+  .w-full\@#{$bp} {
+    @include media($bp) {
+      --width: 100%;
+    }
+  }
+  .w-auto\@#{$bp} {
+    @include media($bp) {
+      --width: auto;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[class*="bdrs-"] {
+  border-radius: var(--top-right-radius) var(--bottom-right-radius) var(--bottom-left-radius) var(--top-left-radius);
+}
+
+[class*="btrr-"] {
+  border-top-right-radius: var(--top-right-radius);
+}
+
+[class*="bbrr-"] {
+  border-bottom-right-radius: var(--bottom-right-radius);
+}
+
+[class*="bblr-"] {
+  border-bottom-left-radius: var(--bottom-left-radius);
+}
+
+[class*="btlr-"] {
+  border-top-left-radius: var(--top-left-radius);
+}
+
+@each $value in $border-radius {
+  .bdrs-#{$value} {
+    --top-right-radius: #{size($value)};
+    --bottom-right-radius: #{size($value)};
+    --bottom-left-radius: #{size($value)};
+    --top-left-radius: #{size($value)};
+  }
+  .btrr-#{$value} {
+    --top-right-radius: #{size($value)};
+  }
+  .bbrr-#{$value} {
+    --bottom-right-radius: #{size($value)};
+  }
+  .bblr-#{$value} {
+    --bottom-left-radius: #{size($value)};
+  }
+  .btlr-#{$value} {
+    --top-left-radius: #{size($value)};
+  }
+  @each $bp, $width in $media-breakpoints {
+    @include media($bp) {
+      .bdrs-#{$value}\@#{$bp} {
+        --top-right-radius: #{size($value)};
+        --bottom-right-radius: #{size($value)};
+        --bottom-left-radius: #{size($value)};
+        --top-left-radius: #{size($value)};
+      }
+      .btrr-#{$value}\@#{$bp} {
+        --top-right-radius: #{size($value)};
+      }
+      .bbrr-#{$value}\@#{$bp} {
+        --bottom-right-radius: #{size($value)};
+      }
+      .bblr-#{$value}\@#{$bp} {
+        --bottom-left-radius: #{size($value)};
+      }
+      .btlr-#{$value}\@#{$bp} {
+        --top-left-radius: #{size($value)};
+      }
+    }
+  }
+}

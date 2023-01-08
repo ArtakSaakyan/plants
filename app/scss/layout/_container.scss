@@ -1,0 +1,21 @@
+.container {
+  @each $bp, $value in $container-width {
+    @include media($bp) {
+      --container-max-width: #{size($value)};
+    }
+  }
+  @each $bp, $value in $container-padding {
+    @if $bp == 'default' {
+      --container-side-padding: #{size($value)};
+    } @else {
+      @include media($bp) {
+        --container-side-padding: #{size($value)};
+      }
+    }
+  }
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding-left: var(--container-side-padding);
+  padding-right: var(--container-side-padding);
+}

@@ -1,0 +1,34 @@
+.modal-menu {
+  --d-block: block;
+  display: var(--d-block);
+  width: 100%;
+  max-width: size(344);
+  height: 100vh;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  background: $base;
+  transition: $td;
+  will-change: transform;
+  z-index: 99;
+  &.active {
+    transform: translateX(-100%);
+  }
+}
+.modal-menu--header {
+  --d-flex: flex;
+  display: var(--d-flex);
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-menu--logo {
+  width: size(192);
+  height: auto;
+}
+.modal-menu--contacts {
+  --d-flex: flex;
+  display: var(--d-flex);
+  align-items: center;
+  text-decoration: none;
+  color: $corporate;
+}

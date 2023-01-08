@@ -1,0 +1,81 @@
+[class*="grid-"] {
+  --d-grid: grid;
+  display: var(--d-grid);
+  grid-template-columns: repeat(var(--grid-column), 1fr);
+  grid-column-gap: var(--grid-gap-x);
+  grid-row-gap: var(--grid-gap-y);
+  justify-items: var(--align-x);
+  align-items: var(--align-y);
+  position: relative;
+
+  > * {
+    --grid-column-start: auto;
+    --grid-column-end: auto;
+    grid-column: var(--grid-column-start) / var(--grid-column-end);
+    min-width: 1px;
+  }
+}
+
+.grid {
+  &-center {
+    --align-x: center;
+    --align-y: center;
+
+    &-x {
+      --align-x: center;
+    }
+
+    &-y {
+      --align-y: center;
+    }
+  }
+}
+
+
+@each $bp, $width in $media-breakpoints {
+  .grid-center\@#{$bp} {
+    @include media($bp) {
+      --align-x: center;
+      --align-y: center;
+    }
+  }
+  .grid-center-x\@#{$bp} {
+    @include media($bp) {
+      --align-x: center;
+    }
+  }
+  .grid-center-y\@#{$bp} {
+    @include media($bp) {
+      --align-y: center;
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .grid-#{$i} {
+    --grid-column: #{$i};
+  }
+  .col-#{$i} {
+    --grid-column-end: span #{$i};
+  }
+  .cs-#{$i} {
+    --grid-column-start: #{$i};
+  }
+  @each $bp, $width in $media-breakpoints {
+    .grid-#{$i}\@#{$bp} {
+      @include media($bp) {
+        --grid-column: #{$i};
+      }
+    }
+    .col-#{$i}\@#{$bp} {
+      @include media($bp) {
+        --grid-column-end: span #{$i};
+      }
+    }
+    .cs-#{$i}\@#{$bp} {
+      @include media($bp) {
+        --grid-column-start: #{$i};
+      }
+    }
+  }
+}

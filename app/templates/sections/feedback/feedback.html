@@ -1,0 +1,49 @@
+<section id="feedback" class="feedback bg-color_grey">
+  <div class="container pt-64 pt-100@lg pb-40 pb-56@md pb-80@lg">
+    <div class="grid-1 grid-12@md">
+      <div class="feedback--content col-6@md col-4@lg cs-2@md">
+        <h2 class="title title--size-lg mb-8 mb-24@lg">Обратная связь</h2>
+        <p class="title title--size-xs mb-8 mb-24@md mb-0@lg">Оставьте свои контактые данные и&nbsp;мы&nbsp;проконсультируем
+          вас</p>
+      </div>
+      <form class="form col-8@md col-5@lg cs-3@md cs-6@lg order-1@lg" action="/">
+        <div class="grid-1 grid-2@md form--grid">
+          <label class="form--text col-2@md">
+            <input type="text" name="firstname" placeholder="Имя" required>
+            <span class="form--text-placeholder">Имя <span>*</span></span>
+            <span class="form--text-error">Укажите имя</span>
+          </label>
+          <label class="form--text">
+            <input type="tel" name="phone" placeholder="Телефон" required>
+            <span class="form--text-placeholder">Телефон <span>*</span></span>
+            <span class="form--text-error">Укажите Телефон</span>
+          </label>
+          <label class="form--text">
+            <input type="email" name="email" placeholder="E-mail" required>
+            <span class="form--text-placeholder">E-mail <span>*</span></span>
+            <span class="form--text-error">Укажите E-mail</span>
+          </label>
+          <label class="form--textarea col-2@md">
+            <textarea name="message" placeholder="Комментарий к заазу" maxlength="200"
+                      data-text-counter></textarea>
+            <span class="form--textarea-placeholder">Комментарий к заазу</span>
+            <span class="form--textarea-counter">
+              <span class="form--textarea-counter-hint">Сообщение</span>
+              <span class="form--textarea-counter-current" data-text-current></span>/<span
+                class="form--textarea-counter-limit" data-text-limit></span>
+            </span>
+          </label>
+          <label class="form--checkbox col-2@md">
+            <input type="checkbox" data-agreement>
+            <svg class="form--checkbox-icon mr-12 bdrs-2">
+              <use xlink:href="assets/sprites/icons.svg#checkbox"></use>
+            </svg>
+            <span class="form--checkbox-text">Я&nbsp;ознакомился с&nbsp;<a href="#">политикой конфиденциальности</a> и&nbsp;принимаю условия обработки персональных данных</span>
+          </label>
+          <button class="btn btn--size-md btn--theme-corporate col-2@md" disabled data-submit>Заказать консультацию
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

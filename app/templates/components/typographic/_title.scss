@@ -1,0 +1,47 @@
+.title, .subtitle {
+  --margin-t: 0;
+  --margin-r: 0;
+  --margin-b: 0;
+  --margin-l: 0;
+  --padding-t: 0;
+  --padding-r: 0;
+  --padding-b: 0;
+  --padding-l: 0;
+  --d-block: block;
+  display: var(--d-block);
+  margin: var(--margin-t) var(--margin-r) var(--margin-b) var(--margin-l);
+  padding: var(--padding-t) var(--padding-r) var(--padding-b) var(--padding-l);
+}
+
+.title {
+  font-family: var(--primary-font);
+  font-size: size(25);
+  font-weight: 700;
+  line-height: size(35);
+
+  @include media(md) {
+    font-size: size(35);
+    line-height: size(50);
+  }
+
+  @include media(lg) {
+    font-size: size(45);
+  }
+}
+
+.subtitle {
+  font-size: size(25);
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  line-height: size(32);
+
+  @include media(md) {
+    font-size: size(35);
+    line-height: size(45);
+  }
+
+  @include media(lg) {
+    font-size: size(40);
+    line-height: size(52);
+  }
+}

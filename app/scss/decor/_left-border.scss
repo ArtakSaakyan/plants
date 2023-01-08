@@ -1,0 +1,33 @@
+.left-border {
+  border-left: size(8) solid;
+  @include media(md) {
+    border-width: size(12);
+  }
+  @include media(lg) {
+    border-width: size(20);
+  }
+  &_carrot {
+    @extend .left-border;
+    border-color: #ed8e00;
+  }
+  &_lime {
+    @extend .left-border;
+    border-color: #8ebd00;
+  }
+  &_sea {
+    @extend .left-border;
+    border-color: #29a4a2;
+  }
+  &_red {
+    @extend .left-border;
+    border-color: #a90602;
+  }
+  &_purple {
+    @extend .left-border;
+    border-color: #834fef;
+  }
+  &_primary {
+    @extend .left-border;
+    border-color: $primary;
+  }
+}

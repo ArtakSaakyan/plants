@@ -1,0 +1,16 @@
+@use 'sass:math';
+
+@function height($width,$height) {
+  @return math.div($height, $width) * 100%;
+}
+
+@function size($value) {
+  $unit: null;
+  @if $value != 0  {
+    @if $value != auto {
+      $unit: rem;
+      @return math.div($value, $base-unit) + $unit;
+    }
+  }
+  @return $value;
+}

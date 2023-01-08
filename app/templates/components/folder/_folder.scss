@@ -1,0 +1,23 @@
+[data-folder] {
+  --d-flex: flex;
+  display: var(--d-flex);
+  align-items: center;
+  cursor: pointer;
+}
+[data-folder-body] {
+  display: none;
+}
+.folder--arrow {
+  @extend .icon;
+  --icon-size: #{size(24)};
+  --margin-l: auto;
+  margin-left: var(--margin-l);
+  color: inherit;
+  transition: $td;
+  &:after {
+    content: '\e5cf';
+  }
+}
+.active > .folder--arrow {
+  transform: rotate(-180deg);
+}

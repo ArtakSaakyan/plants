@@ -1,0 +1,35 @@
+[class*="tal"] {
+  text-align: var(--t-align);
+}
+[class*="tac"] {
+  text-align: var(--t-align);
+}
+[class*="tar"] {
+  text-align: var(--t-align);
+}
+.tal {
+  --t-align: left;
+}
+.tac {
+  --t-align: center;
+}
+.tar {
+  --t-align: right;
+}
+@each $bp, $value in $media-breakpoints {
+  .tal\@#{$bp} {
+    @include media($bp) {
+      --t-align: left;
+    }
+  }
+  .tac\@#{$bp} {
+    @include media($bp) {
+      --t-align: center;
+    }
+  }
+  .tar\@#{$bp} {
+    @include media($bp) {
+      --t-align: right;
+    }
+  }
+}

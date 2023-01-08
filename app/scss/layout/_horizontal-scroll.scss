@@ -1,0 +1,14 @@
+.horizontal-scroll {
+  @include media(lg, max) {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: calc(100vw - var(--container-side-padding));
+  }
+  &::-webkit-scrollbar {
+    @include media(lg, max) {
+      -webkit-appearance: none;
+      width: 0;
+      height: 0;
+    }
+  }
+}

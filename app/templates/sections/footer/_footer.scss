@@ -1,0 +1,55 @@
+.footer {
+  display: grid;
+  grid-area: footer;
+  background-color: $white;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: size(16);
+
+  @include media(lg) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-copyright, .footer-rsschool {
+  margin: 0;
+  color: $black;
+  font-size: size(20);
+  line-height: size(24);
+  text-decoration: none;
+  transition: $td;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.footer-copyright {
+  word-spacing: size(20);
+}
+
+.footer-socials {
+  display: flex;
+  gap: size(20);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social {
+  cursor: pointer;
+
+  svg {
+    fill: $black;
+    transition: $td;
+
+    &:hover {
+      fill: $orange;
+    }
+  }
+}

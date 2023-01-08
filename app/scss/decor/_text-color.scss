@@ -1,0 +1,23 @@
+[class*="t-color"] {
+  color: var(--text-color);
+}
+.text-color {
+  &__title {
+    --text-color: #{$title};
+  }
+  &__content {
+    --text-color: #{$content};
+  }
+  &__green {
+    --text-color: #{$green};
+  }
+  &__orange {
+    --text-color: #{$orange};
+  }
+  &__white {
+    --text-color: #{$white};
+  }
+  &__black {
+    --text-color: #{$black};
+  }
+}

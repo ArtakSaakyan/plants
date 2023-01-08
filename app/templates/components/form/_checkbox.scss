@@ -1,0 +1,35 @@
+.form--checkbox {
+  --d-flex: flex;
+  display: var(--d-flex);
+  align-items: center;
+  padding: size(8) 0;
+  cursor: pointer;
+  a {
+    color: $primary;
+  }
+  input {
+    display: none;
+    &:checked ~ .form--checkbox-icon {
+      background: $primary;
+      fill: #fff;
+    }
+  }
+  &-icon {
+    @extend .icon;
+    --icon-size: #{size(18)};
+    border: $primary 1px solid;
+    fill: transparent;
+    transition: $td;
+  }
+  @media (pointer: fine) {
+    &:hover {
+      .form--checkbox-icon {
+        background: $fade-hover;
+      }
+      input:checked ~ .form--checkbox-icon {
+        background: $hover;
+        border-color: $hover;
+      }
+    }
+  }
+}

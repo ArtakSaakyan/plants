@@ -1,0 +1,18 @@
+.form {
+  .form--checkbox-icon {
+    align-self: start;
+  }
+  .btn--size-md {
+    @include media(md) {
+      min-width: size(280);
+      justify-self: end;
+    }
+  }
+}
+.form--grid {
+  --grid-gap-x: #{size(8)};
+  --grid-gap-y: #{size(8)};
+  @include media(lg) {
+    --grid-gap-y: #{size(12)};
+  }
+}

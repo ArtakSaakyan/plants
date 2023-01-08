@@ -1,0 +1,93 @@
+[class*="p-"] {
+  --padding-t: 0;
+  --padding-r: 0;
+  --padding-b: 0;
+  --padding-l: 0;
+  padding: var(--padding-t) var(--padding-r) var(--padding-b) var(--padding-l);
+}
+[class*="ph-"] {
+  --padding-r: 0;
+  --padding-l: 0;
+  padding-left: var(--padding-l);
+  padding-right: var(--padding-r);
+}
+[class*="pv-"] {
+  --padding-t: 0;
+  --padding-b: 0;
+  padding-top: var(--padding-t);
+  padding-bottom: var(--padding-b);
+}
+[class*="pt-"] {
+  --padding-t: 0;
+  padding-top: var(--padding-t);
+}
+[class*="pr-"] {
+  --padding-r: 0;
+  padding-right: var(--padding-r);
+}
+[class*="pb-"] {
+  --padding-b: 0;
+  padding-bottom: var(--padding-b);
+}
+[class*="pl-"] {
+  --padding-l: 0;
+  padding-left: var(--padding-l);
+}
+@each $value in $block-intervals {
+  .pt-#{$value} {
+    --padding-t: #{size($value)};
+  }
+  .pr-#{$value} {
+    --padding-r: #{size($value)};
+  }
+  .pb-#{$value} {
+    --padding-b: #{size($value)};
+  }
+  .pl-#{$value} {
+    --padding-l: #{size($value)};
+  }
+  .ph-#{$value} {
+    --padding-l: #{size($value)};
+    --padding-r: #{size($value)};
+  }
+  .pv-#{$value} {
+    --padding-t: #{size($value)};
+    --padding-b: #{size($value)};
+  }
+  .p-#{$value} {
+    --padding-t: #{size($value)};
+    --padding-r: #{size($value)};
+    --padding-b: #{size($value)};
+    --padding-l: #{size($value)};
+  }
+  @each $bp, $width in $media-breakpoints {
+    @media (min-width: $width + px) {
+      .pt-#{$value}\@#{$bp} {
+        --padding-t: #{size($value)};
+      }
+      .pr-#{$value}\@#{$bp} {
+        --padding-r: #{size($value)};
+      }
+      .pb-#{$value}\@#{$bp} {
+        --padding-b: #{size($value)};
+      }
+      .pl-#{$value}\@#{$bp} {
+        --padding-l: #{size($value)};
+      }
+      .ph-#{$value}\@#{$bp} {
+        --padding-l: #{size($value)};
+        --padding-r: #{size($value)};
+      }
+      .pv-#{$value}\@#{$bp} {
+        --padding-t: #{size($value)};
+        --padding-b: #{size($value)};
+      }
+      .p-#{$value}\@#{$bp} {
+        --padding-t: #{size($value)};
+        --padding-r: #{size($value)};
+        --padding-b: #{size($value)};
+        --padding-l: #{size($value)};
+      }
+    }
+  }
+}

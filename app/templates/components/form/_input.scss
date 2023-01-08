@@ -1,0 +1,85 @@
+.form--text {
+  --d-block: block;
+  display: var(--d-block);
+  position: relative;
+  cursor: text;
+  input {
+    width: 100%;
+    padding: size(13) size(11);
+    background: none;
+    border: transparent 1px solid;
+    outline: none;
+    background: #fff;
+    border-radius: size(4);
+    transition: $td;
+    &::placeholder {
+      color: transparent;
+    }
+    &:not(:placeholder-shown) {
+      &:invalid {
+        ~ .form--text-placeholder {
+          opacity: 0;
+          z-index: -1;
+        }
+        ~ .form--text-error {
+          opacity: 1;
+          z-index: 1;
+        }
+      }
+      ~ .form--text-placeholder {
+        opacity: 0;
+        z-index: -1;
+      }
+    }
+    &:focus {
+      border-color: $orange;
+      ~ .form--text-placeholder {
+        opacity: 0;
+        z-index: -1;
+      }
+      ~ .form--text-error {
+        opacity: 0 !important;
+        z-index: -1 !important;
+      }
+    }
+    @media (pointer: fine) {
+      &:hover {
+        background: $fade-hover;
+        ~ .form--text-placeholder {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+.form--text-placeholder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: size(13) size(11);
+  user-select: none;
+  color: $secondary;
+  transition: $td;
+  z-index: 1;
+  span {
+    color: $error;
+  }
+}
+.form--text-error {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: size(13) size(11);
+  user-select: none;
+  color: $error;
+  background: $error-background;
+  border: $error-stroke 1px solid;
+  opacity: 0;
+  transition: $td;
+  border-radius: size(4);
+  z-index: -1;
+}

@@ -1,0 +1,47 @@
+.breadcrumbs {
+  --d-flex: flex;
+  display: var(--d-flex);
+  align-items: center;
+  font-size: size(14);
+  line-height: 1.43;
+  color: $divider;
+  @include media(lg) {
+    line-height: 1.14;
+  }
+  &:not(.horizontal-scroll) {
+    flex-wrap: wrap;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: $td;
+    @include media(lg, max) {
+      padding: size(8) size(16);
+      background: #fff;
+      border-radius: size(36);
+    }
+    &:hover {
+      color: $primary;
+      @include media(lg) {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.breadcrumbs--item {
+  white-space: nowrap;
+  @include media(lg, max) {
+    padding: size(8) 0;
+  }
+  &:not(:last-child) {
+    margin-right: size(8);
+  }
+}
+.breadcrumbs--divider {
+  @include media(lg, max) {
+    display: none;
+  }
+  &:not(:last-child) {
+    margin-right: size(8);
+  }
+}
