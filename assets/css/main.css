@@ -1118,7 +1118,12 @@ ol.list ol.list > li:before {
 }
 
 .footer-copyright {
-  word-spacing: 1.25rem;
+  word-spacing: 0.875rem;
+}
+
+.footer-rsschool {
+  position: relative;
+  left: 0.625rem;
 }
 
 .footer-socials {
@@ -1801,6 +1806,39 @@ ol.list ol.list > li:before {
   --padding-l: 1rem;
 }
 
+.pt-18 {
+  --padding-t: 1.125rem;
+}
+
+.pr-18 {
+  --padding-r: 1.125rem;
+}
+
+.pb-18 {
+  --padding-b: 1.125rem;
+}
+
+.pl-18 {
+  --padding-l: 1.125rem;
+}
+
+.ph-18 {
+  --padding-l: 1.125rem;
+  --padding-r: 1.125rem;
+}
+
+.pv-18 {
+  --padding-t: 1.125rem;
+  --padding-b: 1.125rem;
+}
+
+.p-18 {
+  --padding-t: 1.125rem;
+  --padding-r: 1.125rem;
+  --padding-b: 1.125rem;
+  --padding-l: 1.125rem;
+}
+
 .pt-20 {
   --padding-t: 1.25rem;
 }
@@ -2263,6 +2301,39 @@ ol.list ol.list > li:before {
   --padding-l: 3rem;
 }
 
+.pt-52 {
+  --padding-t: 3.25rem;
+}
+
+.pr-52 {
+  --padding-r: 3.25rem;
+}
+
+.pb-52 {
+  --padding-b: 3.25rem;
+}
+
+.pl-52 {
+  --padding-l: 3.25rem;
+}
+
+.ph-52 {
+  --padding-l: 3.25rem;
+  --padding-r: 3.25rem;
+}
+
+.pv-52 {
+  --padding-t: 3.25rem;
+  --padding-b: 3.25rem;
+}
+
+.p-52 {
+  --padding-t: 3.25rem;
+  --padding-r: 3.25rem;
+  --padding-b: 3.25rem;
+  --padding-l: 3.25rem;
+}
+
 .pt-56 {
   --padding-t: 3.5rem;
 }
@@ -2296,6 +2367,39 @@ ol.list ol.list > li:before {
   --padding-l: 3.5rem;
 }
 
+.pt-58 {
+  --padding-t: 3.625rem;
+}
+
+.pr-58 {
+  --padding-r: 3.625rem;
+}
+
+.pb-58 {
+  --padding-b: 3.625rem;
+}
+
+.pl-58 {
+  --padding-l: 3.625rem;
+}
+
+.ph-58 {
+  --padding-l: 3.625rem;
+  --padding-r: 3.625rem;
+}
+
+.pv-58 {
+  --padding-t: 3.625rem;
+  --padding-b: 3.625rem;
+}
+
+.p-58 {
+  --padding-t: 3.625rem;
+  --padding-r: 3.625rem;
+  --padding-b: 3.625rem;
+  --padding-l: 3.625rem;
+}
+
 .pt-60 {
   --padding-t: 3.75rem;
 }
@@ -2327,6 +2431,39 @@ ol.list ol.list > li:before {
   --padding-r: 3.75rem;
   --padding-b: 3.75rem;
   --padding-l: 3.75rem;
+}
+
+.pt-62 {
+  --padding-t: 3.875rem;
+}
+
+.pr-62 {
+  --padding-r: 3.875rem;
+}
+
+.pb-62 {
+  --padding-b: 3.875rem;
+}
+
+.pl-62 {
+  --padding-l: 3.875rem;
+}
+
+.ph-62 {
+  --padding-l: 3.875rem;
+  --padding-r: 3.875rem;
+}
+
+.pv-62 {
+  --padding-t: 3.875rem;
+  --padding-b: 3.875rem;
+}
+
+.p-62 {
+  --padding-t: 3.875rem;
+  --padding-r: 3.875rem;
+  --padding-b: 3.875rem;
+  --padding-l: 3.875rem;
 }
 
 .pt-64 {
@@ -2494,6 +2631,39 @@ ol.list ol.list > li:before {
   --padding-l: 5.5rem;
 }
 
+.pt-92 {
+  --padding-t: 5.75rem;
+}
+
+.pr-92 {
+  --padding-r: 5.75rem;
+}
+
+.pb-92 {
+  --padding-b: 5.75rem;
+}
+
+.pl-92 {
+  --padding-l: 5.75rem;
+}
+
+.ph-92 {
+  --padding-l: 5.75rem;
+  --padding-r: 5.75rem;
+}
+
+.pv-92 {
+  --padding-t: 5.75rem;
+  --padding-b: 5.75rem;
+}
+
+.p-92 {
+  --padding-t: 5.75rem;
+  --padding-r: 5.75rem;
+  --padding-b: 5.75rem;
+  --padding-l: 5.75rem;
+}
+
 .pt-95 {
   --padding-t: 5.9375rem;
 }
@@ -2558,6 +2728,39 @@ ol.list ol.list > li:before {
   --padding-r: 6.25rem;
   --padding-b: 6.25rem;
   --padding-l: 6.25rem;
+}
+
+.pt-105 {
+  --padding-t: 6.5625rem;
+}
+
+.pr-105 {
+  --padding-r: 6.5625rem;
+}
+
+.pb-105 {
+  --padding-b: 6.5625rem;
+}
+
+.pl-105 {
+  --padding-l: 6.5625rem;
+}
+
+.ph-105 {
+  --padding-l: 6.5625rem;
+  --padding-r: 6.5625rem;
+}
+
+.pv-105 {
+  --padding-t: 6.5625rem;
+  --padding-b: 6.5625rem;
+}
+
+.p-105 {
+  --padding-t: 6.5625rem;
+  --padding-r: 6.5625rem;
+  --padding-b: 6.5625rem;
+  --padding-l: 6.5625rem;
 }
 
 .pt-115 {
@@ -3031,6 +3234,39 @@ ol.list ol.list > li:before {
   --margin-l: 1rem;
 }
 
+.mt-18 {
+  --margin-t: 1.125rem;
+}
+
+.mr-18 {
+  --margin-r: 1.125rem;
+}
+
+.mb-18 {
+  --margin-b: 1.125rem;
+}
+
+.ml-18 {
+  --margin-l: 1.125rem;
+}
+
+.mh-18 {
+  --margin-l: 1.125rem;
+  --margin-r: 1.125rem;
+}
+
+.mv-18 {
+  --margin-t: 1.125rem;
+  --margin-b: 1.125rem;
+}
+
+.m-18 {
+  --margin-t: 1.125rem;
+  --margin-r: 1.125rem;
+  --margin-b: 1.125rem;
+  --margin-l: 1.125rem;
+}
+
 .mt-20 {
   --margin-t: 1.25rem;
 }
@@ -3493,6 +3729,39 @@ ol.list ol.list > li:before {
   --margin-l: 3rem;
 }
 
+.mt-52 {
+  --margin-t: 3.25rem;
+}
+
+.mr-52 {
+  --margin-r: 3.25rem;
+}
+
+.mb-52 {
+  --margin-b: 3.25rem;
+}
+
+.ml-52 {
+  --margin-l: 3.25rem;
+}
+
+.mh-52 {
+  --margin-l: 3.25rem;
+  --margin-r: 3.25rem;
+}
+
+.mv-52 {
+  --margin-t: 3.25rem;
+  --margin-b: 3.25rem;
+}
+
+.m-52 {
+  --margin-t: 3.25rem;
+  --margin-r: 3.25rem;
+  --margin-b: 3.25rem;
+  --margin-l: 3.25rem;
+}
+
 .mt-56 {
   --margin-t: 3.5rem;
 }
@@ -3526,6 +3795,39 @@ ol.list ol.list > li:before {
   --margin-l: 3.5rem;
 }
 
+.mt-58 {
+  --margin-t: 3.625rem;
+}
+
+.mr-58 {
+  --margin-r: 3.625rem;
+}
+
+.mb-58 {
+  --margin-b: 3.625rem;
+}
+
+.ml-58 {
+  --margin-l: 3.625rem;
+}
+
+.mh-58 {
+  --margin-l: 3.625rem;
+  --margin-r: 3.625rem;
+}
+
+.mv-58 {
+  --margin-t: 3.625rem;
+  --margin-b: 3.625rem;
+}
+
+.m-58 {
+  --margin-t: 3.625rem;
+  --margin-r: 3.625rem;
+  --margin-b: 3.625rem;
+  --margin-l: 3.625rem;
+}
+
 .mt-60 {
   --margin-t: 3.75rem;
 }
@@ -3557,6 +3859,39 @@ ol.list ol.list > li:before {
   --margin-r: 3.75rem;
   --margin-b: 3.75rem;
   --margin-l: 3.75rem;
+}
+
+.mt-62 {
+  --margin-t: 3.875rem;
+}
+
+.mr-62 {
+  --margin-r: 3.875rem;
+}
+
+.mb-62 {
+  --margin-b: 3.875rem;
+}
+
+.ml-62 {
+  --margin-l: 3.875rem;
+}
+
+.mh-62 {
+  --margin-l: 3.875rem;
+  --margin-r: 3.875rem;
+}
+
+.mv-62 {
+  --margin-t: 3.875rem;
+  --margin-b: 3.875rem;
+}
+
+.m-62 {
+  --margin-t: 3.875rem;
+  --margin-r: 3.875rem;
+  --margin-b: 3.875rem;
+  --margin-l: 3.875rem;
 }
 
 .mt-64 {
@@ -3724,6 +4059,39 @@ ol.list ol.list > li:before {
   --margin-l: 5.5rem;
 }
 
+.mt-92 {
+  --margin-t: 5.75rem;
+}
+
+.mr-92 {
+  --margin-r: 5.75rem;
+}
+
+.mb-92 {
+  --margin-b: 5.75rem;
+}
+
+.ml-92 {
+  --margin-l: 5.75rem;
+}
+
+.mh-92 {
+  --margin-l: 5.75rem;
+  --margin-r: 5.75rem;
+}
+
+.mv-92 {
+  --margin-t: 5.75rem;
+  --margin-b: 5.75rem;
+}
+
+.m-92 {
+  --margin-t: 5.75rem;
+  --margin-r: 5.75rem;
+  --margin-b: 5.75rem;
+  --margin-l: 5.75rem;
+}
+
 .mt-95 {
   --margin-t: 5.9375rem;
 }
@@ -3788,6 +4156,39 @@ ol.list ol.list > li:before {
   --margin-r: 6.25rem;
   --margin-b: 6.25rem;
   --margin-l: 6.25rem;
+}
+
+.mt-105 {
+  --margin-t: 6.5625rem;
+}
+
+.mr-105 {
+  --margin-r: 6.5625rem;
+}
+
+.mb-105 {
+  --margin-b: 6.5625rem;
+}
+
+.ml-105 {
+  --margin-l: 6.5625rem;
+}
+
+.mh-105 {
+  --margin-l: 6.5625rem;
+  --margin-r: 6.5625rem;
+}
+
+.mv-105 {
+  --margin-t: 6.5625rem;
+  --margin-b: 6.5625rem;
+}
+
+.m-105 {
+  --margin-t: 6.5625rem;
+  --margin-r: 6.5625rem;
+  --margin-b: 6.5625rem;
+  --margin-l: 6.5625rem;
 }
 
 .mt-115 {
@@ -4575,6 +4976,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-18\@sm {
+    --padding-t: 1.125rem;
+  }
+
+  .pr-18\@sm {
+    --padding-r: 1.125rem;
+  }
+
+  .pb-18\@sm {
+    --padding-b: 1.125rem;
+  }
+
+  .pl-18\@sm {
+    --padding-l: 1.125rem;
+  }
+
+  .ph-18\@sm {
+    --padding-l: 1.125rem;
+    --padding-r: 1.125rem;
+  }
+
+  .pv-18\@sm {
+    --padding-t: 1.125rem;
+    --padding-b: 1.125rem;
+  }
+
+  .p-18\@sm {
+    --padding-t: 1.125rem;
+    --padding-r: 1.125rem;
+    --padding-b: 1.125rem;
+    --padding-l: 1.125rem;
+  }
+
   .pt-20\@sm {
     --padding-t: 1.25rem;
   }
@@ -5037,6 +5471,39 @@ ol.list ol.list > li:before {
     --padding-l: 3rem;
   }
 
+  .pt-52\@sm {
+    --padding-t: 3.25rem;
+  }
+
+  .pr-52\@sm {
+    --padding-r: 3.25rem;
+  }
+
+  .pb-52\@sm {
+    --padding-b: 3.25rem;
+  }
+
+  .pl-52\@sm {
+    --padding-l: 3.25rem;
+  }
+
+  .ph-52\@sm {
+    --padding-l: 3.25rem;
+    --padding-r: 3.25rem;
+  }
+
+  .pv-52\@sm {
+    --padding-t: 3.25rem;
+    --padding-b: 3.25rem;
+  }
+
+  .p-52\@sm {
+    --padding-t: 3.25rem;
+    --padding-r: 3.25rem;
+    --padding-b: 3.25rem;
+    --padding-l: 3.25rem;
+  }
+
   .pt-56\@sm {
     --padding-t: 3.5rem;
   }
@@ -5070,6 +5537,39 @@ ol.list ol.list > li:before {
     --padding-l: 3.5rem;
   }
 
+  .pt-58\@sm {
+    --padding-t: 3.625rem;
+  }
+
+  .pr-58\@sm {
+    --padding-r: 3.625rem;
+  }
+
+  .pb-58\@sm {
+    --padding-b: 3.625rem;
+  }
+
+  .pl-58\@sm {
+    --padding-l: 3.625rem;
+  }
+
+  .ph-58\@sm {
+    --padding-l: 3.625rem;
+    --padding-r: 3.625rem;
+  }
+
+  .pv-58\@sm {
+    --padding-t: 3.625rem;
+    --padding-b: 3.625rem;
+  }
+
+  .p-58\@sm {
+    --padding-t: 3.625rem;
+    --padding-r: 3.625rem;
+    --padding-b: 3.625rem;
+    --padding-l: 3.625rem;
+  }
+
   .pt-60\@sm {
     --padding-t: 3.75rem;
   }
@@ -5101,6 +5601,39 @@ ol.list ol.list > li:before {
     --padding-r: 3.75rem;
     --padding-b: 3.75rem;
     --padding-l: 3.75rem;
+  }
+
+  .pt-62\@sm {
+    --padding-t: 3.875rem;
+  }
+
+  .pr-62\@sm {
+    --padding-r: 3.875rem;
+  }
+
+  .pb-62\@sm {
+    --padding-b: 3.875rem;
+  }
+
+  .pl-62\@sm {
+    --padding-l: 3.875rem;
+  }
+
+  .ph-62\@sm {
+    --padding-l: 3.875rem;
+    --padding-r: 3.875rem;
+  }
+
+  .pv-62\@sm {
+    --padding-t: 3.875rem;
+    --padding-b: 3.875rem;
+  }
+
+  .p-62\@sm {
+    --padding-t: 3.875rem;
+    --padding-r: 3.875rem;
+    --padding-b: 3.875rem;
+    --padding-l: 3.875rem;
   }
 
   .pt-64\@sm {
@@ -5268,6 +5801,39 @@ ol.list ol.list > li:before {
     --padding-l: 5.5rem;
   }
 
+  .pt-92\@sm {
+    --padding-t: 5.75rem;
+  }
+
+  .pr-92\@sm {
+    --padding-r: 5.75rem;
+  }
+
+  .pb-92\@sm {
+    --padding-b: 5.75rem;
+  }
+
+  .pl-92\@sm {
+    --padding-l: 5.75rem;
+  }
+
+  .ph-92\@sm {
+    --padding-l: 5.75rem;
+    --padding-r: 5.75rem;
+  }
+
+  .pv-92\@sm {
+    --padding-t: 5.75rem;
+    --padding-b: 5.75rem;
+  }
+
+  .p-92\@sm {
+    --padding-t: 5.75rem;
+    --padding-r: 5.75rem;
+    --padding-b: 5.75rem;
+    --padding-l: 5.75rem;
+  }
+
   .pt-95\@sm {
     --padding-t: 5.9375rem;
   }
@@ -5332,6 +5898,39 @@ ol.list ol.list > li:before {
     --padding-r: 6.25rem;
     --padding-b: 6.25rem;
     --padding-l: 6.25rem;
+  }
+
+  .pt-105\@sm {
+    --padding-t: 6.5625rem;
+  }
+
+  .pr-105\@sm {
+    --padding-r: 6.5625rem;
+  }
+
+  .pb-105\@sm {
+    --padding-b: 6.5625rem;
+  }
+
+  .pl-105\@sm {
+    --padding-l: 6.5625rem;
+  }
+
+  .ph-105\@sm {
+    --padding-l: 6.5625rem;
+    --padding-r: 6.5625rem;
+  }
+
+  .pv-105\@sm {
+    --padding-t: 6.5625rem;
+    --padding-b: 6.5625rem;
+  }
+
+  .p-105\@sm {
+    --padding-t: 6.5625rem;
+    --padding-r: 6.5625rem;
+    --padding-b: 6.5625rem;
+    --padding-l: 6.5625rem;
   }
 
   .pt-115\@sm {
@@ -5761,6 +6360,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-18\@sm {
+    --margin-t: 1.125rem;
+  }
+
+  .mr-18\@sm {
+    --margin-r: 1.125rem;
+  }
+
+  .mb-18\@sm {
+    --margin-b: 1.125rem;
+  }
+
+  .ml-18\@sm {
+    --margin-l: 1.125rem;
+  }
+
+  .mh-18\@sm {
+    --margin-l: 1.125rem;
+    --margin-r: 1.125rem;
+  }
+
+  .mv-18\@sm {
+    --margin-t: 1.125rem;
+    --margin-b: 1.125rem;
+  }
+
+  .m-18\@sm {
+    --margin-t: 1.125rem;
+    --margin-r: 1.125rem;
+    --margin-b: 1.125rem;
+    --margin-l: 1.125rem;
   }
 
   .mt-20\@sm {
@@ -6225,6 +6857,39 @@ ol.list ol.list > li:before {
     --margin-l: 3rem;
   }
 
+  .mt-52\@sm {
+    --margin-t: 3.25rem;
+  }
+
+  .mr-52\@sm {
+    --margin-r: 3.25rem;
+  }
+
+  .mb-52\@sm {
+    --margin-b: 3.25rem;
+  }
+
+  .ml-52\@sm {
+    --margin-l: 3.25rem;
+  }
+
+  .mh-52\@sm {
+    --margin-l: 3.25rem;
+    --margin-r: 3.25rem;
+  }
+
+  .mv-52\@sm {
+    --margin-t: 3.25rem;
+    --margin-b: 3.25rem;
+  }
+
+  .m-52\@sm {
+    --margin-t: 3.25rem;
+    --margin-r: 3.25rem;
+    --margin-b: 3.25rem;
+    --margin-l: 3.25rem;
+  }
+
   .mt-56\@sm {
     --margin-t: 3.5rem;
   }
@@ -6258,6 +6923,39 @@ ol.list ol.list > li:before {
     --margin-l: 3.5rem;
   }
 
+  .mt-58\@sm {
+    --margin-t: 3.625rem;
+  }
+
+  .mr-58\@sm {
+    --margin-r: 3.625rem;
+  }
+
+  .mb-58\@sm {
+    --margin-b: 3.625rem;
+  }
+
+  .ml-58\@sm {
+    --margin-l: 3.625rem;
+  }
+
+  .mh-58\@sm {
+    --margin-l: 3.625rem;
+    --margin-r: 3.625rem;
+  }
+
+  .mv-58\@sm {
+    --margin-t: 3.625rem;
+    --margin-b: 3.625rem;
+  }
+
+  .m-58\@sm {
+    --margin-t: 3.625rem;
+    --margin-r: 3.625rem;
+    --margin-b: 3.625rem;
+    --margin-l: 3.625rem;
+  }
+
   .mt-60\@sm {
     --margin-t: 3.75rem;
   }
@@ -6289,6 +6987,39 @@ ol.list ol.list > li:before {
     --margin-r: 3.75rem;
     --margin-b: 3.75rem;
     --margin-l: 3.75rem;
+  }
+
+  .mt-62\@sm {
+    --margin-t: 3.875rem;
+  }
+
+  .mr-62\@sm {
+    --margin-r: 3.875rem;
+  }
+
+  .mb-62\@sm {
+    --margin-b: 3.875rem;
+  }
+
+  .ml-62\@sm {
+    --margin-l: 3.875rem;
+  }
+
+  .mh-62\@sm {
+    --margin-l: 3.875rem;
+    --margin-r: 3.875rem;
+  }
+
+  .mv-62\@sm {
+    --margin-t: 3.875rem;
+    --margin-b: 3.875rem;
+  }
+
+  .m-62\@sm {
+    --margin-t: 3.875rem;
+    --margin-r: 3.875rem;
+    --margin-b: 3.875rem;
+    --margin-l: 3.875rem;
   }
 
   .mt-64\@sm {
@@ -6456,6 +7187,39 @@ ol.list ol.list > li:before {
     --margin-l: 5.5rem;
   }
 
+  .mt-92\@sm {
+    --margin-t: 5.75rem;
+  }
+
+  .mr-92\@sm {
+    --margin-r: 5.75rem;
+  }
+
+  .mb-92\@sm {
+    --margin-b: 5.75rem;
+  }
+
+  .ml-92\@sm {
+    --margin-l: 5.75rem;
+  }
+
+  .mh-92\@sm {
+    --margin-l: 5.75rem;
+    --margin-r: 5.75rem;
+  }
+
+  .mv-92\@sm {
+    --margin-t: 5.75rem;
+    --margin-b: 5.75rem;
+  }
+
+  .m-92\@sm {
+    --margin-t: 5.75rem;
+    --margin-r: 5.75rem;
+    --margin-b: 5.75rem;
+    --margin-l: 5.75rem;
+  }
+
   .mt-95\@sm {
     --margin-t: 5.9375rem;
   }
@@ -6520,6 +7284,39 @@ ol.list ol.list > li:before {
     --margin-r: 6.25rem;
     --margin-b: 6.25rem;
     --margin-l: 6.25rem;
+  }
+
+  .mt-105\@sm {
+    --margin-t: 6.5625rem;
+  }
+
+  .mr-105\@sm {
+    --margin-r: 6.5625rem;
+  }
+
+  .mb-105\@sm {
+    --margin-b: 6.5625rem;
+  }
+
+  .ml-105\@sm {
+    --margin-l: 6.5625rem;
+  }
+
+  .mh-105\@sm {
+    --margin-l: 6.5625rem;
+    --margin-r: 6.5625rem;
+  }
+
+  .mv-105\@sm {
+    --margin-t: 6.5625rem;
+    --margin-b: 6.5625rem;
+  }
+
+  .m-105\@sm {
+    --margin-t: 6.5625rem;
+    --margin-r: 6.5625rem;
+    --margin-b: 6.5625rem;
+    --margin-l: 6.5625rem;
   }
 
   .mt-115\@sm {
@@ -7478,6 +8275,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-18\@md {
+    --padding-t: 1.125rem;
+  }
+
+  .pr-18\@md {
+    --padding-r: 1.125rem;
+  }
+
+  .pb-18\@md {
+    --padding-b: 1.125rem;
+  }
+
+  .pl-18\@md {
+    --padding-l: 1.125rem;
+  }
+
+  .ph-18\@md {
+    --padding-l: 1.125rem;
+    --padding-r: 1.125rem;
+  }
+
+  .pv-18\@md {
+    --padding-t: 1.125rem;
+    --padding-b: 1.125rem;
+  }
+
+  .p-18\@md {
+    --padding-t: 1.125rem;
+    --padding-r: 1.125rem;
+    --padding-b: 1.125rem;
+    --padding-l: 1.125rem;
+  }
+
   .pt-20\@md {
     --padding-t: 1.25rem;
   }
@@ -7940,6 +8770,39 @@ ol.list ol.list > li:before {
     --padding-l: 3rem;
   }
 
+  .pt-52\@md {
+    --padding-t: 3.25rem;
+  }
+
+  .pr-52\@md {
+    --padding-r: 3.25rem;
+  }
+
+  .pb-52\@md {
+    --padding-b: 3.25rem;
+  }
+
+  .pl-52\@md {
+    --padding-l: 3.25rem;
+  }
+
+  .ph-52\@md {
+    --padding-l: 3.25rem;
+    --padding-r: 3.25rem;
+  }
+
+  .pv-52\@md {
+    --padding-t: 3.25rem;
+    --padding-b: 3.25rem;
+  }
+
+  .p-52\@md {
+    --padding-t: 3.25rem;
+    --padding-r: 3.25rem;
+    --padding-b: 3.25rem;
+    --padding-l: 3.25rem;
+  }
+
   .pt-56\@md {
     --padding-t: 3.5rem;
   }
@@ -7973,6 +8836,39 @@ ol.list ol.list > li:before {
     --padding-l: 3.5rem;
   }
 
+  .pt-58\@md {
+    --padding-t: 3.625rem;
+  }
+
+  .pr-58\@md {
+    --padding-r: 3.625rem;
+  }
+
+  .pb-58\@md {
+    --padding-b: 3.625rem;
+  }
+
+  .pl-58\@md {
+    --padding-l: 3.625rem;
+  }
+
+  .ph-58\@md {
+    --padding-l: 3.625rem;
+    --padding-r: 3.625rem;
+  }
+
+  .pv-58\@md {
+    --padding-t: 3.625rem;
+    --padding-b: 3.625rem;
+  }
+
+  .p-58\@md {
+    --padding-t: 3.625rem;
+    --padding-r: 3.625rem;
+    --padding-b: 3.625rem;
+    --padding-l: 3.625rem;
+  }
+
   .pt-60\@md {
     --padding-t: 3.75rem;
   }
@@ -8004,6 +8900,39 @@ ol.list ol.list > li:before {
     --padding-r: 3.75rem;
     --padding-b: 3.75rem;
     --padding-l: 3.75rem;
+  }
+
+  .pt-62\@md {
+    --padding-t: 3.875rem;
+  }
+
+  .pr-62\@md {
+    --padding-r: 3.875rem;
+  }
+
+  .pb-62\@md {
+    --padding-b: 3.875rem;
+  }
+
+  .pl-62\@md {
+    --padding-l: 3.875rem;
+  }
+
+  .ph-62\@md {
+    --padding-l: 3.875rem;
+    --padding-r: 3.875rem;
+  }
+
+  .pv-62\@md {
+    --padding-t: 3.875rem;
+    --padding-b: 3.875rem;
+  }
+
+  .p-62\@md {
+    --padding-t: 3.875rem;
+    --padding-r: 3.875rem;
+    --padding-b: 3.875rem;
+    --padding-l: 3.875rem;
   }
 
   .pt-64\@md {
@@ -8171,6 +9100,39 @@ ol.list ol.list > li:before {
     --padding-l: 5.5rem;
   }
 
+  .pt-92\@md {
+    --padding-t: 5.75rem;
+  }
+
+  .pr-92\@md {
+    --padding-r: 5.75rem;
+  }
+
+  .pb-92\@md {
+    --padding-b: 5.75rem;
+  }
+
+  .pl-92\@md {
+    --padding-l: 5.75rem;
+  }
+
+  .ph-92\@md {
+    --padding-l: 5.75rem;
+    --padding-r: 5.75rem;
+  }
+
+  .pv-92\@md {
+    --padding-t: 5.75rem;
+    --padding-b: 5.75rem;
+  }
+
+  .p-92\@md {
+    --padding-t: 5.75rem;
+    --padding-r: 5.75rem;
+    --padding-b: 5.75rem;
+    --padding-l: 5.75rem;
+  }
+
   .pt-95\@md {
     --padding-t: 5.9375rem;
   }
@@ -8235,6 +9197,39 @@ ol.list ol.list > li:before {
     --padding-r: 6.25rem;
     --padding-b: 6.25rem;
     --padding-l: 6.25rem;
+  }
+
+  .pt-105\@md {
+    --padding-t: 6.5625rem;
+  }
+
+  .pr-105\@md {
+    --padding-r: 6.5625rem;
+  }
+
+  .pb-105\@md {
+    --padding-b: 6.5625rem;
+  }
+
+  .pl-105\@md {
+    --padding-l: 6.5625rem;
+  }
+
+  .ph-105\@md {
+    --padding-l: 6.5625rem;
+    --padding-r: 6.5625rem;
+  }
+
+  .pv-105\@md {
+    --padding-t: 6.5625rem;
+    --padding-b: 6.5625rem;
+  }
+
+  .p-105\@md {
+    --padding-t: 6.5625rem;
+    --padding-r: 6.5625rem;
+    --padding-b: 6.5625rem;
+    --padding-l: 6.5625rem;
   }
 
   .pt-115\@md {
@@ -8664,6 +9659,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-18\@md {
+    --margin-t: 1.125rem;
+  }
+
+  .mr-18\@md {
+    --margin-r: 1.125rem;
+  }
+
+  .mb-18\@md {
+    --margin-b: 1.125rem;
+  }
+
+  .ml-18\@md {
+    --margin-l: 1.125rem;
+  }
+
+  .mh-18\@md {
+    --margin-l: 1.125rem;
+    --margin-r: 1.125rem;
+  }
+
+  .mv-18\@md {
+    --margin-t: 1.125rem;
+    --margin-b: 1.125rem;
+  }
+
+  .m-18\@md {
+    --margin-t: 1.125rem;
+    --margin-r: 1.125rem;
+    --margin-b: 1.125rem;
+    --margin-l: 1.125rem;
   }
 
   .mt-20\@md {
@@ -9128,6 +10156,39 @@ ol.list ol.list > li:before {
     --margin-l: 3rem;
   }
 
+  .mt-52\@md {
+    --margin-t: 3.25rem;
+  }
+
+  .mr-52\@md {
+    --margin-r: 3.25rem;
+  }
+
+  .mb-52\@md {
+    --margin-b: 3.25rem;
+  }
+
+  .ml-52\@md {
+    --margin-l: 3.25rem;
+  }
+
+  .mh-52\@md {
+    --margin-l: 3.25rem;
+    --margin-r: 3.25rem;
+  }
+
+  .mv-52\@md {
+    --margin-t: 3.25rem;
+    --margin-b: 3.25rem;
+  }
+
+  .m-52\@md {
+    --margin-t: 3.25rem;
+    --margin-r: 3.25rem;
+    --margin-b: 3.25rem;
+    --margin-l: 3.25rem;
+  }
+
   .mt-56\@md {
     --margin-t: 3.5rem;
   }
@@ -9161,6 +10222,39 @@ ol.list ol.list > li:before {
     --margin-l: 3.5rem;
   }
 
+  .mt-58\@md {
+    --margin-t: 3.625rem;
+  }
+
+  .mr-58\@md {
+    --margin-r: 3.625rem;
+  }
+
+  .mb-58\@md {
+    --margin-b: 3.625rem;
+  }
+
+  .ml-58\@md {
+    --margin-l: 3.625rem;
+  }
+
+  .mh-58\@md {
+    --margin-l: 3.625rem;
+    --margin-r: 3.625rem;
+  }
+
+  .mv-58\@md {
+    --margin-t: 3.625rem;
+    --margin-b: 3.625rem;
+  }
+
+  .m-58\@md {
+    --margin-t: 3.625rem;
+    --margin-r: 3.625rem;
+    --margin-b: 3.625rem;
+    --margin-l: 3.625rem;
+  }
+
   .mt-60\@md {
     --margin-t: 3.75rem;
   }
@@ -9192,6 +10286,39 @@ ol.list ol.list > li:before {
     --margin-r: 3.75rem;
     --margin-b: 3.75rem;
     --margin-l: 3.75rem;
+  }
+
+  .mt-62\@md {
+    --margin-t: 3.875rem;
+  }
+
+  .mr-62\@md {
+    --margin-r: 3.875rem;
+  }
+
+  .mb-62\@md {
+    --margin-b: 3.875rem;
+  }
+
+  .ml-62\@md {
+    --margin-l: 3.875rem;
+  }
+
+  .mh-62\@md {
+    --margin-l: 3.875rem;
+    --margin-r: 3.875rem;
+  }
+
+  .mv-62\@md {
+    --margin-t: 3.875rem;
+    --margin-b: 3.875rem;
+  }
+
+  .m-62\@md {
+    --margin-t: 3.875rem;
+    --margin-r: 3.875rem;
+    --margin-b: 3.875rem;
+    --margin-l: 3.875rem;
   }
 
   .mt-64\@md {
@@ -9359,6 +10486,39 @@ ol.list ol.list > li:before {
     --margin-l: 5.5rem;
   }
 
+  .mt-92\@md {
+    --margin-t: 5.75rem;
+  }
+
+  .mr-92\@md {
+    --margin-r: 5.75rem;
+  }
+
+  .mb-92\@md {
+    --margin-b: 5.75rem;
+  }
+
+  .ml-92\@md {
+    --margin-l: 5.75rem;
+  }
+
+  .mh-92\@md {
+    --margin-l: 5.75rem;
+    --margin-r: 5.75rem;
+  }
+
+  .mv-92\@md {
+    --margin-t: 5.75rem;
+    --margin-b: 5.75rem;
+  }
+
+  .m-92\@md {
+    --margin-t: 5.75rem;
+    --margin-r: 5.75rem;
+    --margin-b: 5.75rem;
+    --margin-l: 5.75rem;
+  }
+
   .mt-95\@md {
     --margin-t: 5.9375rem;
   }
@@ -9423,6 +10583,39 @@ ol.list ol.list > li:before {
     --margin-r: 6.25rem;
     --margin-b: 6.25rem;
     --margin-l: 6.25rem;
+  }
+
+  .mt-105\@md {
+    --margin-t: 6.5625rem;
+  }
+
+  .mr-105\@md {
+    --margin-r: 6.5625rem;
+  }
+
+  .mb-105\@md {
+    --margin-b: 6.5625rem;
+  }
+
+  .ml-105\@md {
+    --margin-l: 6.5625rem;
+  }
+
+  .mh-105\@md {
+    --margin-l: 6.5625rem;
+    --margin-r: 6.5625rem;
+  }
+
+  .mv-105\@md {
+    --margin-t: 6.5625rem;
+    --margin-b: 6.5625rem;
+  }
+
+  .m-105\@md {
+    --margin-t: 6.5625rem;
+    --margin-r: 6.5625rem;
+    --margin-b: 6.5625rem;
+    --margin-l: 6.5625rem;
   }
 
   .mt-115\@md {
@@ -9971,9 +11164,31 @@ ol.list ol.list > li:before {
     justify-content: space-between;
   }
 
+  .footer-social svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .logo-title {
+    position: relative;
+    right: 0.1875rem;
+    top: 0.25rem;
+  }
+
+  .menu ul {
+    position: relative;
+    top: 0.4375rem;
+    right: 0.1875rem;
+  }
+
   .welcome-info {
     max-width: 34.375rem;
     order: 1;
+  }
+
+  .welcome-content {
+    font-size: 1.25rem;
+    line-height: 2.1875rem;
   }
 
   .welcome-img {
@@ -9995,6 +11210,11 @@ ol.list ol.list > li:before {
     width: 28.9375rem;
   }
 
+  .about-content {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
   .about-img {
     width: 29rem;
     margin: inherit;
@@ -10006,13 +11226,43 @@ ol.list ol.list > li:before {
     gap: 8.75rem;
   }
 
+  .service-title {
+    position: relative;
+    bottom: 0.3125rem;
+  }
+
+  .service-buttons {
+    gap: 2.375rem;
+  }
+
+  .service-btn {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    min-width: 10.0625rem;
+  }
+
   .service-item {
     width: 33.3333333333%;
     max-width: 20.625rem;
   }
 
+  .service-item__description {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
   .prices-title {
     grid-column: 1;
+  }
+
+  .prices-list {
+    gap: 2rem;
+    position: relative;
+    bottom: 0.5rem;
+  }
+
+  .prices-item {
+    height: 3.125rem;
   }
 
   .prices-info {
@@ -10023,6 +11273,12 @@ ol.list ol.list > li:before {
     width: 28.25rem;
     font-size: 2.5rem;
     line-height: 3.125rem;
+  }
+
+  .prices-btn {
+    width: 10.125rem;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
   }
 
   .contacts-inner {
@@ -10037,6 +11293,18 @@ ol.list ol.list > li:before {
     width: 28.125rem;
     height: min-content;
     order: 3;
+  }
+
+  .contacts-address__title {
+    position: relative;
+    left: 0.125rem;
+    top: 0.1875rem;
+  }
+
+  .contacts-address__expand {
+    position: relative;
+    top: 0.1875rem;
+    right: 0.8125rem;
   }
 
   .contacts-img {
@@ -10364,6 +11632,39 @@ ol.list ol.list > li:before {
     --padding-r: 1rem;
     --padding-b: 1rem;
     --padding-l: 1rem;
+  }
+
+  .pt-18\@lg {
+    --padding-t: 1.125rem;
+  }
+
+  .pr-18\@lg {
+    --padding-r: 1.125rem;
+  }
+
+  .pb-18\@lg {
+    --padding-b: 1.125rem;
+  }
+
+  .pl-18\@lg {
+    --padding-l: 1.125rem;
+  }
+
+  .ph-18\@lg {
+    --padding-l: 1.125rem;
+    --padding-r: 1.125rem;
+  }
+
+  .pv-18\@lg {
+    --padding-t: 1.125rem;
+    --padding-b: 1.125rem;
+  }
+
+  .p-18\@lg {
+    --padding-t: 1.125rem;
+    --padding-r: 1.125rem;
+    --padding-b: 1.125rem;
+    --padding-l: 1.125rem;
   }
 
   .pt-20\@lg {
@@ -10828,6 +12129,39 @@ ol.list ol.list > li:before {
     --padding-l: 3rem;
   }
 
+  .pt-52\@lg {
+    --padding-t: 3.25rem;
+  }
+
+  .pr-52\@lg {
+    --padding-r: 3.25rem;
+  }
+
+  .pb-52\@lg {
+    --padding-b: 3.25rem;
+  }
+
+  .pl-52\@lg {
+    --padding-l: 3.25rem;
+  }
+
+  .ph-52\@lg {
+    --padding-l: 3.25rem;
+    --padding-r: 3.25rem;
+  }
+
+  .pv-52\@lg {
+    --padding-t: 3.25rem;
+    --padding-b: 3.25rem;
+  }
+
+  .p-52\@lg {
+    --padding-t: 3.25rem;
+    --padding-r: 3.25rem;
+    --padding-b: 3.25rem;
+    --padding-l: 3.25rem;
+  }
+
   .pt-56\@lg {
     --padding-t: 3.5rem;
   }
@@ -10861,6 +12195,39 @@ ol.list ol.list > li:before {
     --padding-l: 3.5rem;
   }
 
+  .pt-58\@lg {
+    --padding-t: 3.625rem;
+  }
+
+  .pr-58\@lg {
+    --padding-r: 3.625rem;
+  }
+
+  .pb-58\@lg {
+    --padding-b: 3.625rem;
+  }
+
+  .pl-58\@lg {
+    --padding-l: 3.625rem;
+  }
+
+  .ph-58\@lg {
+    --padding-l: 3.625rem;
+    --padding-r: 3.625rem;
+  }
+
+  .pv-58\@lg {
+    --padding-t: 3.625rem;
+    --padding-b: 3.625rem;
+  }
+
+  .p-58\@lg {
+    --padding-t: 3.625rem;
+    --padding-r: 3.625rem;
+    --padding-b: 3.625rem;
+    --padding-l: 3.625rem;
+  }
+
   .pt-60\@lg {
     --padding-t: 3.75rem;
   }
@@ -10892,6 +12259,39 @@ ol.list ol.list > li:before {
     --padding-r: 3.75rem;
     --padding-b: 3.75rem;
     --padding-l: 3.75rem;
+  }
+
+  .pt-62\@lg {
+    --padding-t: 3.875rem;
+  }
+
+  .pr-62\@lg {
+    --padding-r: 3.875rem;
+  }
+
+  .pb-62\@lg {
+    --padding-b: 3.875rem;
+  }
+
+  .pl-62\@lg {
+    --padding-l: 3.875rem;
+  }
+
+  .ph-62\@lg {
+    --padding-l: 3.875rem;
+    --padding-r: 3.875rem;
+  }
+
+  .pv-62\@lg {
+    --padding-t: 3.875rem;
+    --padding-b: 3.875rem;
+  }
+
+  .p-62\@lg {
+    --padding-t: 3.875rem;
+    --padding-r: 3.875rem;
+    --padding-b: 3.875rem;
+    --padding-l: 3.875rem;
   }
 
   .pt-64\@lg {
@@ -11059,6 +12459,39 @@ ol.list ol.list > li:before {
     --padding-l: 5.5rem;
   }
 
+  .pt-92\@lg {
+    --padding-t: 5.75rem;
+  }
+
+  .pr-92\@lg {
+    --padding-r: 5.75rem;
+  }
+
+  .pb-92\@lg {
+    --padding-b: 5.75rem;
+  }
+
+  .pl-92\@lg {
+    --padding-l: 5.75rem;
+  }
+
+  .ph-92\@lg {
+    --padding-l: 5.75rem;
+    --padding-r: 5.75rem;
+  }
+
+  .pv-92\@lg {
+    --padding-t: 5.75rem;
+    --padding-b: 5.75rem;
+  }
+
+  .p-92\@lg {
+    --padding-t: 5.75rem;
+    --padding-r: 5.75rem;
+    --padding-b: 5.75rem;
+    --padding-l: 5.75rem;
+  }
+
   .pt-95\@lg {
     --padding-t: 5.9375rem;
   }
@@ -11123,6 +12556,39 @@ ol.list ol.list > li:before {
     --padding-r: 6.25rem;
     --padding-b: 6.25rem;
     --padding-l: 6.25rem;
+  }
+
+  .pt-105\@lg {
+    --padding-t: 6.5625rem;
+  }
+
+  .pr-105\@lg {
+    --padding-r: 6.5625rem;
+  }
+
+  .pb-105\@lg {
+    --padding-b: 6.5625rem;
+  }
+
+  .pl-105\@lg {
+    --padding-l: 6.5625rem;
+  }
+
+  .ph-105\@lg {
+    --padding-l: 6.5625rem;
+    --padding-r: 6.5625rem;
+  }
+
+  .pv-105\@lg {
+    --padding-t: 6.5625rem;
+    --padding-b: 6.5625rem;
+  }
+
+  .p-105\@lg {
+    --padding-t: 6.5625rem;
+    --padding-r: 6.5625rem;
+    --padding-b: 6.5625rem;
+    --padding-l: 6.5625rem;
   }
 
   .pt-115\@lg {
@@ -11552,6 +13018,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-18\@lg {
+    --margin-t: 1.125rem;
+  }
+
+  .mr-18\@lg {
+    --margin-r: 1.125rem;
+  }
+
+  .mb-18\@lg {
+    --margin-b: 1.125rem;
+  }
+
+  .ml-18\@lg {
+    --margin-l: 1.125rem;
+  }
+
+  .mh-18\@lg {
+    --margin-l: 1.125rem;
+    --margin-r: 1.125rem;
+  }
+
+  .mv-18\@lg {
+    --margin-t: 1.125rem;
+    --margin-b: 1.125rem;
+  }
+
+  .m-18\@lg {
+    --margin-t: 1.125rem;
+    --margin-r: 1.125rem;
+    --margin-b: 1.125rem;
+    --margin-l: 1.125rem;
   }
 
   .mt-20\@lg {
@@ -12016,6 +13515,39 @@ ol.list ol.list > li:before {
     --margin-l: 3rem;
   }
 
+  .mt-52\@lg {
+    --margin-t: 3.25rem;
+  }
+
+  .mr-52\@lg {
+    --margin-r: 3.25rem;
+  }
+
+  .mb-52\@lg {
+    --margin-b: 3.25rem;
+  }
+
+  .ml-52\@lg {
+    --margin-l: 3.25rem;
+  }
+
+  .mh-52\@lg {
+    --margin-l: 3.25rem;
+    --margin-r: 3.25rem;
+  }
+
+  .mv-52\@lg {
+    --margin-t: 3.25rem;
+    --margin-b: 3.25rem;
+  }
+
+  .m-52\@lg {
+    --margin-t: 3.25rem;
+    --margin-r: 3.25rem;
+    --margin-b: 3.25rem;
+    --margin-l: 3.25rem;
+  }
+
   .mt-56\@lg {
     --margin-t: 3.5rem;
   }
@@ -12049,6 +13581,39 @@ ol.list ol.list > li:before {
     --margin-l: 3.5rem;
   }
 
+  .mt-58\@lg {
+    --margin-t: 3.625rem;
+  }
+
+  .mr-58\@lg {
+    --margin-r: 3.625rem;
+  }
+
+  .mb-58\@lg {
+    --margin-b: 3.625rem;
+  }
+
+  .ml-58\@lg {
+    --margin-l: 3.625rem;
+  }
+
+  .mh-58\@lg {
+    --margin-l: 3.625rem;
+    --margin-r: 3.625rem;
+  }
+
+  .mv-58\@lg {
+    --margin-t: 3.625rem;
+    --margin-b: 3.625rem;
+  }
+
+  .m-58\@lg {
+    --margin-t: 3.625rem;
+    --margin-r: 3.625rem;
+    --margin-b: 3.625rem;
+    --margin-l: 3.625rem;
+  }
+
   .mt-60\@lg {
     --margin-t: 3.75rem;
   }
@@ -12080,6 +13645,39 @@ ol.list ol.list > li:before {
     --margin-r: 3.75rem;
     --margin-b: 3.75rem;
     --margin-l: 3.75rem;
+  }
+
+  .mt-62\@lg {
+    --margin-t: 3.875rem;
+  }
+
+  .mr-62\@lg {
+    --margin-r: 3.875rem;
+  }
+
+  .mb-62\@lg {
+    --margin-b: 3.875rem;
+  }
+
+  .ml-62\@lg {
+    --margin-l: 3.875rem;
+  }
+
+  .mh-62\@lg {
+    --margin-l: 3.875rem;
+    --margin-r: 3.875rem;
+  }
+
+  .mv-62\@lg {
+    --margin-t: 3.875rem;
+    --margin-b: 3.875rem;
+  }
+
+  .m-62\@lg {
+    --margin-t: 3.875rem;
+    --margin-r: 3.875rem;
+    --margin-b: 3.875rem;
+    --margin-l: 3.875rem;
   }
 
   .mt-64\@lg {
@@ -12247,6 +13845,39 @@ ol.list ol.list > li:before {
     --margin-l: 5.5rem;
   }
 
+  .mt-92\@lg {
+    --margin-t: 5.75rem;
+  }
+
+  .mr-92\@lg {
+    --margin-r: 5.75rem;
+  }
+
+  .mb-92\@lg {
+    --margin-b: 5.75rem;
+  }
+
+  .ml-92\@lg {
+    --margin-l: 5.75rem;
+  }
+
+  .mh-92\@lg {
+    --margin-l: 5.75rem;
+    --margin-r: 5.75rem;
+  }
+
+  .mv-92\@lg {
+    --margin-t: 5.75rem;
+    --margin-b: 5.75rem;
+  }
+
+  .m-92\@lg {
+    --margin-t: 5.75rem;
+    --margin-r: 5.75rem;
+    --margin-b: 5.75rem;
+    --margin-l: 5.75rem;
+  }
+
   .mt-95\@lg {
     --margin-t: 5.9375rem;
   }
@@ -12311,6 +13942,39 @@ ol.list ol.list > li:before {
     --margin-r: 6.25rem;
     --margin-b: 6.25rem;
     --margin-l: 6.25rem;
+  }
+
+  .mt-105\@lg {
+    --margin-t: 6.5625rem;
+  }
+
+  .mr-105\@lg {
+    --margin-r: 6.5625rem;
+  }
+
+  .mb-105\@lg {
+    --margin-b: 6.5625rem;
+  }
+
+  .ml-105\@lg {
+    --margin-l: 6.5625rem;
+  }
+
+  .mh-105\@lg {
+    --margin-l: 6.5625rem;
+    --margin-r: 6.5625rem;
+  }
+
+  .mv-105\@lg {
+    --margin-t: 6.5625rem;
+    --margin-b: 6.5625rem;
+  }
+
+  .m-105\@lg {
+    --margin-t: 6.5625rem;
+    --margin-r: 6.5625rem;
+    --margin-b: 6.5625rem;
+    --margin-l: 6.5625rem;
   }
 
   .mt-115\@lg {
@@ -13087,6 +14751,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-18\@xl {
+    --padding-t: 1.125rem;
+  }
+
+  .pr-18\@xl {
+    --padding-r: 1.125rem;
+  }
+
+  .pb-18\@xl {
+    --padding-b: 1.125rem;
+  }
+
+  .pl-18\@xl {
+    --padding-l: 1.125rem;
+  }
+
+  .ph-18\@xl {
+    --padding-l: 1.125rem;
+    --padding-r: 1.125rem;
+  }
+
+  .pv-18\@xl {
+    --padding-t: 1.125rem;
+    --padding-b: 1.125rem;
+  }
+
+  .p-18\@xl {
+    --padding-t: 1.125rem;
+    --padding-r: 1.125rem;
+    --padding-b: 1.125rem;
+    --padding-l: 1.125rem;
+  }
+
   .pt-20\@xl {
     --padding-t: 1.25rem;
   }
@@ -13549,6 +15246,39 @@ ol.list ol.list > li:before {
     --padding-l: 3rem;
   }
 
+  .pt-52\@xl {
+    --padding-t: 3.25rem;
+  }
+
+  .pr-52\@xl {
+    --padding-r: 3.25rem;
+  }
+
+  .pb-52\@xl {
+    --padding-b: 3.25rem;
+  }
+
+  .pl-52\@xl {
+    --padding-l: 3.25rem;
+  }
+
+  .ph-52\@xl {
+    --padding-l: 3.25rem;
+    --padding-r: 3.25rem;
+  }
+
+  .pv-52\@xl {
+    --padding-t: 3.25rem;
+    --padding-b: 3.25rem;
+  }
+
+  .p-52\@xl {
+    --padding-t: 3.25rem;
+    --padding-r: 3.25rem;
+    --padding-b: 3.25rem;
+    --padding-l: 3.25rem;
+  }
+
   .pt-56\@xl {
     --padding-t: 3.5rem;
   }
@@ -13582,6 +15312,39 @@ ol.list ol.list > li:before {
     --padding-l: 3.5rem;
   }
 
+  .pt-58\@xl {
+    --padding-t: 3.625rem;
+  }
+
+  .pr-58\@xl {
+    --padding-r: 3.625rem;
+  }
+
+  .pb-58\@xl {
+    --padding-b: 3.625rem;
+  }
+
+  .pl-58\@xl {
+    --padding-l: 3.625rem;
+  }
+
+  .ph-58\@xl {
+    --padding-l: 3.625rem;
+    --padding-r: 3.625rem;
+  }
+
+  .pv-58\@xl {
+    --padding-t: 3.625rem;
+    --padding-b: 3.625rem;
+  }
+
+  .p-58\@xl {
+    --padding-t: 3.625rem;
+    --padding-r: 3.625rem;
+    --padding-b: 3.625rem;
+    --padding-l: 3.625rem;
+  }
+
   .pt-60\@xl {
     --padding-t: 3.75rem;
   }
@@ -13613,6 +15376,39 @@ ol.list ol.list > li:before {
     --padding-r: 3.75rem;
     --padding-b: 3.75rem;
     --padding-l: 3.75rem;
+  }
+
+  .pt-62\@xl {
+    --padding-t: 3.875rem;
+  }
+
+  .pr-62\@xl {
+    --padding-r: 3.875rem;
+  }
+
+  .pb-62\@xl {
+    --padding-b: 3.875rem;
+  }
+
+  .pl-62\@xl {
+    --padding-l: 3.875rem;
+  }
+
+  .ph-62\@xl {
+    --padding-l: 3.875rem;
+    --padding-r: 3.875rem;
+  }
+
+  .pv-62\@xl {
+    --padding-t: 3.875rem;
+    --padding-b: 3.875rem;
+  }
+
+  .p-62\@xl {
+    --padding-t: 3.875rem;
+    --padding-r: 3.875rem;
+    --padding-b: 3.875rem;
+    --padding-l: 3.875rem;
   }
 
   .pt-64\@xl {
@@ -13780,6 +15576,39 @@ ol.list ol.list > li:before {
     --padding-l: 5.5rem;
   }
 
+  .pt-92\@xl {
+    --padding-t: 5.75rem;
+  }
+
+  .pr-92\@xl {
+    --padding-r: 5.75rem;
+  }
+
+  .pb-92\@xl {
+    --padding-b: 5.75rem;
+  }
+
+  .pl-92\@xl {
+    --padding-l: 5.75rem;
+  }
+
+  .ph-92\@xl {
+    --padding-l: 5.75rem;
+    --padding-r: 5.75rem;
+  }
+
+  .pv-92\@xl {
+    --padding-t: 5.75rem;
+    --padding-b: 5.75rem;
+  }
+
+  .p-92\@xl {
+    --padding-t: 5.75rem;
+    --padding-r: 5.75rem;
+    --padding-b: 5.75rem;
+    --padding-l: 5.75rem;
+  }
+
   .pt-95\@xl {
     --padding-t: 5.9375rem;
   }
@@ -13844,6 +15673,39 @@ ol.list ol.list > li:before {
     --padding-r: 6.25rem;
     --padding-b: 6.25rem;
     --padding-l: 6.25rem;
+  }
+
+  .pt-105\@xl {
+    --padding-t: 6.5625rem;
+  }
+
+  .pr-105\@xl {
+    --padding-r: 6.5625rem;
+  }
+
+  .pb-105\@xl {
+    --padding-b: 6.5625rem;
+  }
+
+  .pl-105\@xl {
+    --padding-l: 6.5625rem;
+  }
+
+  .ph-105\@xl {
+    --padding-l: 6.5625rem;
+    --padding-r: 6.5625rem;
+  }
+
+  .pv-105\@xl {
+    --padding-t: 6.5625rem;
+    --padding-b: 6.5625rem;
+  }
+
+  .p-105\@xl {
+    --padding-t: 6.5625rem;
+    --padding-r: 6.5625rem;
+    --padding-b: 6.5625rem;
+    --padding-l: 6.5625rem;
   }
 
   .pt-115\@xl {
@@ -14273,6 +16135,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-18\@xl {
+    --margin-t: 1.125rem;
+  }
+
+  .mr-18\@xl {
+    --margin-r: 1.125rem;
+  }
+
+  .mb-18\@xl {
+    --margin-b: 1.125rem;
+  }
+
+  .ml-18\@xl {
+    --margin-l: 1.125rem;
+  }
+
+  .mh-18\@xl {
+    --margin-l: 1.125rem;
+    --margin-r: 1.125rem;
+  }
+
+  .mv-18\@xl {
+    --margin-t: 1.125rem;
+    --margin-b: 1.125rem;
+  }
+
+  .m-18\@xl {
+    --margin-t: 1.125rem;
+    --margin-r: 1.125rem;
+    --margin-b: 1.125rem;
+    --margin-l: 1.125rem;
   }
 
   .mt-20\@xl {
@@ -14737,6 +16632,39 @@ ol.list ol.list > li:before {
     --margin-l: 3rem;
   }
 
+  .mt-52\@xl {
+    --margin-t: 3.25rem;
+  }
+
+  .mr-52\@xl {
+    --margin-r: 3.25rem;
+  }
+
+  .mb-52\@xl {
+    --margin-b: 3.25rem;
+  }
+
+  .ml-52\@xl {
+    --margin-l: 3.25rem;
+  }
+
+  .mh-52\@xl {
+    --margin-l: 3.25rem;
+    --margin-r: 3.25rem;
+  }
+
+  .mv-52\@xl {
+    --margin-t: 3.25rem;
+    --margin-b: 3.25rem;
+  }
+
+  .m-52\@xl {
+    --margin-t: 3.25rem;
+    --margin-r: 3.25rem;
+    --margin-b: 3.25rem;
+    --margin-l: 3.25rem;
+  }
+
   .mt-56\@xl {
     --margin-t: 3.5rem;
   }
@@ -14770,6 +16698,39 @@ ol.list ol.list > li:before {
     --margin-l: 3.5rem;
   }
 
+  .mt-58\@xl {
+    --margin-t: 3.625rem;
+  }
+
+  .mr-58\@xl {
+    --margin-r: 3.625rem;
+  }
+
+  .mb-58\@xl {
+    --margin-b: 3.625rem;
+  }
+
+  .ml-58\@xl {
+    --margin-l: 3.625rem;
+  }
+
+  .mh-58\@xl {
+    --margin-l: 3.625rem;
+    --margin-r: 3.625rem;
+  }
+
+  .mv-58\@xl {
+    --margin-t: 3.625rem;
+    --margin-b: 3.625rem;
+  }
+
+  .m-58\@xl {
+    --margin-t: 3.625rem;
+    --margin-r: 3.625rem;
+    --margin-b: 3.625rem;
+    --margin-l: 3.625rem;
+  }
+
   .mt-60\@xl {
     --margin-t: 3.75rem;
   }
@@ -14801,6 +16762,39 @@ ol.list ol.list > li:before {
     --margin-r: 3.75rem;
     --margin-b: 3.75rem;
     --margin-l: 3.75rem;
+  }
+
+  .mt-62\@xl {
+    --margin-t: 3.875rem;
+  }
+
+  .mr-62\@xl {
+    --margin-r: 3.875rem;
+  }
+
+  .mb-62\@xl {
+    --margin-b: 3.875rem;
+  }
+
+  .ml-62\@xl {
+    --margin-l: 3.875rem;
+  }
+
+  .mh-62\@xl {
+    --margin-l: 3.875rem;
+    --margin-r: 3.875rem;
+  }
+
+  .mv-62\@xl {
+    --margin-t: 3.875rem;
+    --margin-b: 3.875rem;
+  }
+
+  .m-62\@xl {
+    --margin-t: 3.875rem;
+    --margin-r: 3.875rem;
+    --margin-b: 3.875rem;
+    --margin-l: 3.875rem;
   }
 
   .mt-64\@xl {
@@ -14968,6 +16962,39 @@ ol.list ol.list > li:before {
     --margin-l: 5.5rem;
   }
 
+  .mt-92\@xl {
+    --margin-t: 5.75rem;
+  }
+
+  .mr-92\@xl {
+    --margin-r: 5.75rem;
+  }
+
+  .mb-92\@xl {
+    --margin-b: 5.75rem;
+  }
+
+  .ml-92\@xl {
+    --margin-l: 5.75rem;
+  }
+
+  .mh-92\@xl {
+    --margin-l: 5.75rem;
+    --margin-r: 5.75rem;
+  }
+
+  .mv-92\@xl {
+    --margin-t: 5.75rem;
+    --margin-b: 5.75rem;
+  }
+
+  .m-92\@xl {
+    --margin-t: 5.75rem;
+    --margin-r: 5.75rem;
+    --margin-b: 5.75rem;
+    --margin-l: 5.75rem;
+  }
+
   .mt-95\@xl {
     --margin-t: 5.9375rem;
   }
@@ -15032,6 +17059,39 @@ ol.list ol.list > li:before {
     --margin-r: 6.25rem;
     --margin-b: 6.25rem;
     --margin-l: 6.25rem;
+  }
+
+  .mt-105\@xl {
+    --margin-t: 6.5625rem;
+  }
+
+  .mr-105\@xl {
+    --margin-r: 6.5625rem;
+  }
+
+  .mb-105\@xl {
+    --margin-b: 6.5625rem;
+  }
+
+  .ml-105\@xl {
+    --margin-l: 6.5625rem;
+  }
+
+  .mh-105\@xl {
+    --margin-l: 6.5625rem;
+    --margin-r: 6.5625rem;
+  }
+
+  .mv-105\@xl {
+    --margin-t: 6.5625rem;
+    --margin-b: 6.5625rem;
+  }
+
+  .m-105\@xl {
+    --margin-t: 6.5625rem;
+    --margin-r: 6.5625rem;
+    --margin-b: 6.5625rem;
+    --margin-l: 6.5625rem;
   }
 
   .mt-115\@xl {
@@ -15804,6 +17864,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-18\@xxl {
+    --padding-t: 1.125rem;
+  }
+
+  .pr-18\@xxl {
+    --padding-r: 1.125rem;
+  }
+
+  .pb-18\@xxl {
+    --padding-b: 1.125rem;
+  }
+
+  .pl-18\@xxl {
+    --padding-l: 1.125rem;
+  }
+
+  .ph-18\@xxl {
+    --padding-l: 1.125rem;
+    --padding-r: 1.125rem;
+  }
+
+  .pv-18\@xxl {
+    --padding-t: 1.125rem;
+    --padding-b: 1.125rem;
+  }
+
+  .p-18\@xxl {
+    --padding-t: 1.125rem;
+    --padding-r: 1.125rem;
+    --padding-b: 1.125rem;
+    --padding-l: 1.125rem;
+  }
+
   .pt-20\@xxl {
     --padding-t: 1.25rem;
   }
@@ -16266,6 +18359,39 @@ ol.list ol.list > li:before {
     --padding-l: 3rem;
   }
 
+  .pt-52\@xxl {
+    --padding-t: 3.25rem;
+  }
+
+  .pr-52\@xxl {
+    --padding-r: 3.25rem;
+  }
+
+  .pb-52\@xxl {
+    --padding-b: 3.25rem;
+  }
+
+  .pl-52\@xxl {
+    --padding-l: 3.25rem;
+  }
+
+  .ph-52\@xxl {
+    --padding-l: 3.25rem;
+    --padding-r: 3.25rem;
+  }
+
+  .pv-52\@xxl {
+    --padding-t: 3.25rem;
+    --padding-b: 3.25rem;
+  }
+
+  .p-52\@xxl {
+    --padding-t: 3.25rem;
+    --padding-r: 3.25rem;
+    --padding-b: 3.25rem;
+    --padding-l: 3.25rem;
+  }
+
   .pt-56\@xxl {
     --padding-t: 3.5rem;
   }
@@ -16299,6 +18425,39 @@ ol.list ol.list > li:before {
     --padding-l: 3.5rem;
   }
 
+  .pt-58\@xxl {
+    --padding-t: 3.625rem;
+  }
+
+  .pr-58\@xxl {
+    --padding-r: 3.625rem;
+  }
+
+  .pb-58\@xxl {
+    --padding-b: 3.625rem;
+  }
+
+  .pl-58\@xxl {
+    --padding-l: 3.625rem;
+  }
+
+  .ph-58\@xxl {
+    --padding-l: 3.625rem;
+    --padding-r: 3.625rem;
+  }
+
+  .pv-58\@xxl {
+    --padding-t: 3.625rem;
+    --padding-b: 3.625rem;
+  }
+
+  .p-58\@xxl {
+    --padding-t: 3.625rem;
+    --padding-r: 3.625rem;
+    --padding-b: 3.625rem;
+    --padding-l: 3.625rem;
+  }
+
   .pt-60\@xxl {
     --padding-t: 3.75rem;
   }
@@ -16330,6 +18489,39 @@ ol.list ol.list > li:before {
     --padding-r: 3.75rem;
     --padding-b: 3.75rem;
     --padding-l: 3.75rem;
+  }
+
+  .pt-62\@xxl {
+    --padding-t: 3.875rem;
+  }
+
+  .pr-62\@xxl {
+    --padding-r: 3.875rem;
+  }
+
+  .pb-62\@xxl {
+    --padding-b: 3.875rem;
+  }
+
+  .pl-62\@xxl {
+    --padding-l: 3.875rem;
+  }
+
+  .ph-62\@xxl {
+    --padding-l: 3.875rem;
+    --padding-r: 3.875rem;
+  }
+
+  .pv-62\@xxl {
+    --padding-t: 3.875rem;
+    --padding-b: 3.875rem;
+  }
+
+  .p-62\@xxl {
+    --padding-t: 3.875rem;
+    --padding-r: 3.875rem;
+    --padding-b: 3.875rem;
+    --padding-l: 3.875rem;
   }
 
   .pt-64\@xxl {
@@ -16497,6 +18689,39 @@ ol.list ol.list > li:before {
     --padding-l: 5.5rem;
   }
 
+  .pt-92\@xxl {
+    --padding-t: 5.75rem;
+  }
+
+  .pr-92\@xxl {
+    --padding-r: 5.75rem;
+  }
+
+  .pb-92\@xxl {
+    --padding-b: 5.75rem;
+  }
+
+  .pl-92\@xxl {
+    --padding-l: 5.75rem;
+  }
+
+  .ph-92\@xxl {
+    --padding-l: 5.75rem;
+    --padding-r: 5.75rem;
+  }
+
+  .pv-92\@xxl {
+    --padding-t: 5.75rem;
+    --padding-b: 5.75rem;
+  }
+
+  .p-92\@xxl {
+    --padding-t: 5.75rem;
+    --padding-r: 5.75rem;
+    --padding-b: 5.75rem;
+    --padding-l: 5.75rem;
+  }
+
   .pt-95\@xxl {
     --padding-t: 5.9375rem;
   }
@@ -16561,6 +18786,39 @@ ol.list ol.list > li:before {
     --padding-r: 6.25rem;
     --padding-b: 6.25rem;
     --padding-l: 6.25rem;
+  }
+
+  .pt-105\@xxl {
+    --padding-t: 6.5625rem;
+  }
+
+  .pr-105\@xxl {
+    --padding-r: 6.5625rem;
+  }
+
+  .pb-105\@xxl {
+    --padding-b: 6.5625rem;
+  }
+
+  .pl-105\@xxl {
+    --padding-l: 6.5625rem;
+  }
+
+  .ph-105\@xxl {
+    --padding-l: 6.5625rem;
+    --padding-r: 6.5625rem;
+  }
+
+  .pv-105\@xxl {
+    --padding-t: 6.5625rem;
+    --padding-b: 6.5625rem;
+  }
+
+  .p-105\@xxl {
+    --padding-t: 6.5625rem;
+    --padding-r: 6.5625rem;
+    --padding-b: 6.5625rem;
+    --padding-l: 6.5625rem;
   }
 
   .pt-115\@xxl {
@@ -16990,6 +19248,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-18\@xxl {
+    --margin-t: 1.125rem;
+  }
+
+  .mr-18\@xxl {
+    --margin-r: 1.125rem;
+  }
+
+  .mb-18\@xxl {
+    --margin-b: 1.125rem;
+  }
+
+  .ml-18\@xxl {
+    --margin-l: 1.125rem;
+  }
+
+  .mh-18\@xxl {
+    --margin-l: 1.125rem;
+    --margin-r: 1.125rem;
+  }
+
+  .mv-18\@xxl {
+    --margin-t: 1.125rem;
+    --margin-b: 1.125rem;
+  }
+
+  .m-18\@xxl {
+    --margin-t: 1.125rem;
+    --margin-r: 1.125rem;
+    --margin-b: 1.125rem;
+    --margin-l: 1.125rem;
   }
 
   .mt-20\@xxl {
@@ -17454,6 +19745,39 @@ ol.list ol.list > li:before {
     --margin-l: 3rem;
   }
 
+  .mt-52\@xxl {
+    --margin-t: 3.25rem;
+  }
+
+  .mr-52\@xxl {
+    --margin-r: 3.25rem;
+  }
+
+  .mb-52\@xxl {
+    --margin-b: 3.25rem;
+  }
+
+  .ml-52\@xxl {
+    --margin-l: 3.25rem;
+  }
+
+  .mh-52\@xxl {
+    --margin-l: 3.25rem;
+    --margin-r: 3.25rem;
+  }
+
+  .mv-52\@xxl {
+    --margin-t: 3.25rem;
+    --margin-b: 3.25rem;
+  }
+
+  .m-52\@xxl {
+    --margin-t: 3.25rem;
+    --margin-r: 3.25rem;
+    --margin-b: 3.25rem;
+    --margin-l: 3.25rem;
+  }
+
   .mt-56\@xxl {
     --margin-t: 3.5rem;
   }
@@ -17487,6 +19811,39 @@ ol.list ol.list > li:before {
     --margin-l: 3.5rem;
   }
 
+  .mt-58\@xxl {
+    --margin-t: 3.625rem;
+  }
+
+  .mr-58\@xxl {
+    --margin-r: 3.625rem;
+  }
+
+  .mb-58\@xxl {
+    --margin-b: 3.625rem;
+  }
+
+  .ml-58\@xxl {
+    --margin-l: 3.625rem;
+  }
+
+  .mh-58\@xxl {
+    --margin-l: 3.625rem;
+    --margin-r: 3.625rem;
+  }
+
+  .mv-58\@xxl {
+    --margin-t: 3.625rem;
+    --margin-b: 3.625rem;
+  }
+
+  .m-58\@xxl {
+    --margin-t: 3.625rem;
+    --margin-r: 3.625rem;
+    --margin-b: 3.625rem;
+    --margin-l: 3.625rem;
+  }
+
   .mt-60\@xxl {
     --margin-t: 3.75rem;
   }
@@ -17518,6 +19875,39 @@ ol.list ol.list > li:before {
     --margin-r: 3.75rem;
     --margin-b: 3.75rem;
     --margin-l: 3.75rem;
+  }
+
+  .mt-62\@xxl {
+    --margin-t: 3.875rem;
+  }
+
+  .mr-62\@xxl {
+    --margin-r: 3.875rem;
+  }
+
+  .mb-62\@xxl {
+    --margin-b: 3.875rem;
+  }
+
+  .ml-62\@xxl {
+    --margin-l: 3.875rem;
+  }
+
+  .mh-62\@xxl {
+    --margin-l: 3.875rem;
+    --margin-r: 3.875rem;
+  }
+
+  .mv-62\@xxl {
+    --margin-t: 3.875rem;
+    --margin-b: 3.875rem;
+  }
+
+  .m-62\@xxl {
+    --margin-t: 3.875rem;
+    --margin-r: 3.875rem;
+    --margin-b: 3.875rem;
+    --margin-l: 3.875rem;
   }
 
   .mt-64\@xxl {
@@ -17685,6 +20075,39 @@ ol.list ol.list > li:before {
     --margin-l: 5.5rem;
   }
 
+  .mt-92\@xxl {
+    --margin-t: 5.75rem;
+  }
+
+  .mr-92\@xxl {
+    --margin-r: 5.75rem;
+  }
+
+  .mb-92\@xxl {
+    --margin-b: 5.75rem;
+  }
+
+  .ml-92\@xxl {
+    --margin-l: 5.75rem;
+  }
+
+  .mh-92\@xxl {
+    --margin-l: 5.75rem;
+    --margin-r: 5.75rem;
+  }
+
+  .mv-92\@xxl {
+    --margin-t: 5.75rem;
+    --margin-b: 5.75rem;
+  }
+
+  .m-92\@xxl {
+    --margin-t: 5.75rem;
+    --margin-r: 5.75rem;
+    --margin-b: 5.75rem;
+    --margin-l: 5.75rem;
+  }
+
   .mt-95\@xxl {
     --margin-t: 5.9375rem;
   }
@@ -17749,6 +20172,39 @@ ol.list ol.list > li:before {
     --margin-r: 6.25rem;
     --margin-b: 6.25rem;
     --margin-l: 6.25rem;
+  }
+
+  .mt-105\@xxl {
+    --margin-t: 6.5625rem;
+  }
+
+  .mr-105\@xxl {
+    --margin-r: 6.5625rem;
+  }
+
+  .mb-105\@xxl {
+    --margin-b: 6.5625rem;
+  }
+
+  .ml-105\@xxl {
+    --margin-l: 6.5625rem;
+  }
+
+  .mh-105\@xxl {
+    --margin-l: 6.5625rem;
+    --margin-r: 6.5625rem;
+  }
+
+  .mv-105\@xxl {
+    --margin-t: 6.5625rem;
+    --margin-b: 6.5625rem;
+  }
+
+  .m-105\@xxl {
+    --margin-t: 6.5625rem;
+    --margin-r: 6.5625rem;
+    --margin-b: 6.5625rem;
+    --margin-l: 6.5625rem;
   }
 
   .mt-115\@xxl {

@@ -16,12 +16,29 @@
   @include media(md) {
     width: size(306);
   }
+
+  @include media(lg) {
+    position: relative;
+    bottom: size(5);
+  }
 }
 
 .service-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: size(10);
+
+  @include media(lg) {
+    gap: size(38);
+  }
+}
+
+.service-btn {
+  @include media(lg) {
+    font-size: size(20);
+    line-height: size(26);
+    min-width: size(161);
+  }
 }
 
 .service-list {
@@ -78,5 +95,10 @@
 
 .service-item__description {
   color: $title;
+
+  @include media(lg) {
+    font-size: size(16);
+    line-height: size(20);
+  }
 }
 

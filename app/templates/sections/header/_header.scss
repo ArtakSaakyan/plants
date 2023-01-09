@@ -23,6 +23,12 @@
   margin-left: size(1);
   font-size: size(16);
   line-height: size(20);
+
+  @include media(lg) {
+    position: relative;
+    right: size(3);
+    top: size(4);
+  }
 }
 
 .burger {
@@ -52,6 +58,12 @@
     padding: 0;
     list-style-type: none;
     font-family: var(--secondary-font);
+
+    @include media(lg) {
+      position: relative;
+      top: size(7);
+      right: size(3);
+    }
   }
 }
 

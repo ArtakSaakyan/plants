@@ -54,6 +54,12 @@
   margin: 0;
   font-size: size(20);
   line-height: size(40);
+
+  @include media(lg) {
+    position: relative;
+    left: size(2);
+    top: size(3);
+  }
 }
 
 .contacts-address__expand {
@@ -62,6 +68,12 @@
   height: size(16);
   border-radius: 50%;
   background: #AEA1A1;
+
+  @include media(lg) {
+    position: relative;
+    top: size(3);
+    right: size(13);
+  }
 
   .icon {
     &::after {

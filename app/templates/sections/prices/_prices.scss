@@ -44,6 +44,12 @@
     grid-row: 2;
     grid-column: 1;
   }
+
+  @include media(lg) {
+    gap: size(32);
+    position: relative;
+    bottom: size(8);
+  }
 }
 
 .prices-item {
@@ -60,6 +66,10 @@
 
   @include media(md) {
     padding: size(16) size(40);
+  }
+
+  @include media(lg) {
+    height: size(50);
   }
 
   &:hover {
@@ -139,6 +149,12 @@
   @include media(md) {
     margin-left: auto;
     margin-right: inherit;
+  }
+
+  @include media(lg) {
+    width: size(162);
+    font-size: size(20);
+    line-height: size(26);
   }
 }
 

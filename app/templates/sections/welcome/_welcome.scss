@@ -21,6 +21,13 @@
   }
 }
 
+.welcome-content {
+  @include media(lg) {
+    font-size: size(20);
+    line-height: size(35);
+  }
+}
+
 .welcome-img {
   display: none;
 
