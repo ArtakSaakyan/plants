@@ -30,12 +30,27 @@
 }
 
 .footer-copyright {
+  position: relative;
+  top: size(3);
+  left: size(-1);
   word-spacing: size(14);
+
+  @include media(md) {
+    position: static;
+    top: auto;
+    left: auto;
+  }
 }
 
 .footer-rsschool {
   position: relative;
-  left: size(10);
+  top: size(4);
+
+  @include media(lg) {
+    top: auto;
+    left: size(10);
+  }
+
 }
 
 .footer-socials {
@@ -52,11 +67,8 @@
   svg {
     fill: $black;
     transition: $td;
-
-    @include media(lg) {
-      width: size(32);
-      height: size(32);
-    }
+    width: size(32);
+    height: size(32);
 
     &:hover {
       fill: $orange;

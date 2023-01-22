@@ -21,8 +21,30 @@
   }
 }
 
-.welcome-content {
+.welcome-title {
+  @include media(md) {
+    position: relative;
+    top: size(-6);
+  }
+
   @include media(lg) {
+    top: auto;
+  }
+}
+
+.welcome-content {
+  @include media(md) {
+    position: relative;
+    top: size(-4);
+    left: size(5);
+    font-size: size(16);
+    line-height: size(25);
+  }
+
+  @include media(lg) {
+    position: static;
+    top: auto;
+    left: auto;
     font-size: size(20);
     line-height: size(35);
   }

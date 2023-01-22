@@ -28,16 +28,25 @@
   flex-wrap: wrap;
   gap: size(10);
 
-  @include media(lg) {
+  @include media(md) {
     gap: size(38);
   }
 }
 
 .service-btn {
+  min-width: size(122);
+  height: size(37);
+  border-radius: size(5);
+
+  @include media(md) {
+    min-width: size(161);
+    height: size(50);
+  }
+
   @include media(lg) {
     font-size: size(20);
     line-height: size(26);
-    min-width: size(161);
+    height: auto;
   }
 }
 
@@ -45,11 +54,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: size(34);
+  margin-top: size(-2);
 
   @include media(md) {
     justify-content: space-between;
     gap: 0;
     row-gap: size(40);
+    margin-top: 0;
   }
 
   @include media(md) {
@@ -59,19 +70,27 @@
 
 .service-item {
   width: 100%;
+  margin-top: size(-1);
 
   @include media(md) {
     width: 50%;
     max-width: size(280);
+    margin-top: auto;
+    margin-bottom: size(-29);
   }
 
   @include media(lg) {
     width: calc(100% / 3);
     max-width: size(330);
+    margin-bottom: auto;
   }
 }
 
 .service-item__img {
+
+  @include media(lg) {
+    height: size(350);
+  }
 
   img {
     display: block;
@@ -88,17 +107,39 @@
 }
 
 .service-item__title {
+  position: relative;
+  top: size(-4);
   color: $orange;
   font-size: size(20);
   font-weight: 700;
+
+  @include media(md) {
+    position: static;
+    top: size(-5);
+  }
+
+  @include media(lg) {
+    position: static;
+    top: auto;
+  }
 }
 
 .service-item__description {
+  position: relative;
+  top: size(-3);
   color: $title;
+  line-height: size(17);
 
-  @include media(lg) {
+  @include media(md) {
+    position: static;
+    top: size(-13);
     font-size: size(16);
     line-height: size(20);
+  }
+
+  @include media(lg) {
+    position: static;
+    top: auto;
   }
 }
 

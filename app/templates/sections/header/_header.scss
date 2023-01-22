@@ -14,20 +14,42 @@
   display: flex;
   align-items: flex-end;
   margin: 0;
+
+  .icon {
+    position: relative;
+    left: size(-2);
+    top: size(-2);
+
+    @include media(md) {
+      left: size(-2);
+      top: size(-6);
+    }
+
+    @include media(lg) {
+      position: static;
+      left: auto;
+      top: auto;
+    }
+  }
 }
 
 .logo-title {
   margin: 0;
   color: $black;
+  margin-left: size(-4);
   font-family: var(--secondary-font);
-  margin-left: size(1);
   font-size: size(16);
   line-height: size(20);
 
-  @include media(lg) {
+  @include media(md) {
     position: relative;
+    top: size(-3);
+  }
+
+  @include media(lg) {
     right: size(3);
     top: size(4);
+    margin-left: size(1);
   }
 }
 
@@ -59,10 +81,15 @@
     list-style-type: none;
     font-family: var(--secondary-font);
 
-    @include media(lg) {
+    @include media(md) {
       position: relative;
+      left: size(-4);
+    }
+
+    @include media(lg) {
       top: size(7);
       right: size(3);
+      left: auto;
     }
   }
 }
