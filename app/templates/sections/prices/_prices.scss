@@ -19,12 +19,17 @@
   font-family: var(--primary-font);
 
   @include media(md) {
+    position: relative;
+    left: size(15);
+    margin-bottom: size(56);
     text-align-last: left;
     grid-row: 1;
     grid-column: span 2;
   }
 
   @include media(lg) {
+    position: static;
+    top: auto;
     grid-column: 1;
   }
 }
@@ -43,18 +48,18 @@
   gap: size(14);
 
   @include media(md) {
-    position: static;
-    top: auto;
+    top: size(-74);
     width: size(332);
     padding: size(34) size(40);
     margin: inherit;
     grid-row: 2;
     grid-column: 1;
+    gap: size(32);
   }
 
   @include media(lg) {
-    gap: size(32);
     position: relative;
+    top: auto;
     bottom: size(8);
   }
 }
@@ -72,12 +77,7 @@
   cursor: pointer;
 
   @include media(md) {
-    height: min-content;
     padding: size(16) size(40);
-  }
-
-  @include media(lg) {
-    height: size(50);
   }
 
   &:hover {
@@ -124,9 +124,11 @@
     margin-bottom: auto;
     grid-row: 2;
     grid-column: 2;
+    margin-bottom: size(13);
   }
 
   @include media(lg) {
+    margin-bottom: 0;
     grid-row: span 2;
   }
 }
@@ -170,11 +172,14 @@
   font-weight: 700;
 
   @include media(md) {
+    top: size(8);
+    width: size(162);
     margin-left: auto;
     margin-right: inherit;
   }
 
   @include media(lg) {
+    top: size(-4);
     width: size(162);
     font-size: size(20);
     line-height: size(26);
@@ -185,9 +190,16 @@
   display: none;
 
   @include media(md) {
+    position: relative;
+    top: size(10);
     max-width: size(152);
     margin-left: auto;
     display: block;
+  }
+
+  @include media(lg) {
+    position: static;
+    top: auto;
   }
 
   img {

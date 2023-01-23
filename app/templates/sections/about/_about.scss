@@ -24,6 +24,7 @@
   }
 
   @include media(lg) {
+    margin-left: 0;
     width: size(463);
   }
 }

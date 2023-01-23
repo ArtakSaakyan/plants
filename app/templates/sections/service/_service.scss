@@ -114,7 +114,6 @@
   font-weight: 700;
 
   @include media(md) {
-    position: static;
     top: size(-5);
   }
 
@@ -131,7 +130,6 @@
   line-height: size(17);
 
   @include media(md) {
-    position: static;
     top: size(-13);
     font-size: size(16);
     line-height: size(20);

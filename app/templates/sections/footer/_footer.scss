@@ -36,6 +36,12 @@
   word-spacing: size(14);
 
   @include media(md) {
+    position: relative;
+    left: size(-4);
+    top: size(3);
+  }
+
+  @include media(lg) {
     position: static;
     top: auto;
     left: auto;
@@ -59,6 +65,16 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @include media(md) {
+    position: relative;
+    top: size(12);
+  }
+
+  @include media(lg) {
+    position: static;
+    top: auto;
+  }
 }
 
 .footer-social {

@@ -1928,6 +1928,39 @@ ol.list ol.list > li:before {
   --padding-l: 1rem;
 }
 
+.pt-17 {
+  --padding-t: 1.0625rem;
+}
+
+.pr-17 {
+  --padding-r: 1.0625rem;
+}
+
+.pb-17 {
+  --padding-b: 1.0625rem;
+}
+
+.pl-17 {
+  --padding-l: 1.0625rem;
+}
+
+.ph-17 {
+  --padding-l: 1.0625rem;
+  --padding-r: 1.0625rem;
+}
+
+.pv-17 {
+  --padding-t: 1.0625rem;
+  --padding-b: 1.0625rem;
+}
+
+.p-17 {
+  --padding-t: 1.0625rem;
+  --padding-r: 1.0625rem;
+  --padding-b: 1.0625rem;
+  --padding-l: 1.0625rem;
+}
+
 .pt-18 {
   --padding-t: 1.125rem;
 }
@@ -3453,6 +3486,39 @@ ol.list ol.list > li:before {
   --margin-r: 1rem;
   --margin-b: 1rem;
   --margin-l: 1rem;
+}
+
+.mt-17 {
+  --margin-t: 1.0625rem;
+}
+
+.mr-17 {
+  --margin-r: 1.0625rem;
+}
+
+.mb-17 {
+  --margin-b: 1.0625rem;
+}
+
+.ml-17 {
+  --margin-l: 1.0625rem;
+}
+
+.mh-17 {
+  --margin-l: 1.0625rem;
+  --margin-r: 1.0625rem;
+}
+
+.mv-17 {
+  --margin-t: 1.0625rem;
+  --margin-b: 1.0625rem;
+}
+
+.m-17 {
+  --margin-t: 1.0625rem;
+  --margin-r: 1.0625rem;
+  --margin-b: 1.0625rem;
+  --margin-l: 1.0625rem;
 }
 
 .mt-18 {
@@ -5296,6 +5362,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-17\@sm {
+    --padding-t: 1.0625rem;
+  }
+
+  .pr-17\@sm {
+    --padding-r: 1.0625rem;
+  }
+
+  .pb-17\@sm {
+    --padding-b: 1.0625rem;
+  }
+
+  .pl-17\@sm {
+    --padding-l: 1.0625rem;
+  }
+
+  .ph-17\@sm {
+    --padding-l: 1.0625rem;
+    --padding-r: 1.0625rem;
+  }
+
+  .pv-17\@sm {
+    --padding-t: 1.0625rem;
+    --padding-b: 1.0625rem;
+  }
+
+  .p-17\@sm {
+    --padding-t: 1.0625rem;
+    --padding-r: 1.0625rem;
+    --padding-b: 1.0625rem;
+    --padding-l: 1.0625rem;
+  }
+
   .pt-18\@sm {
     --padding-t: 1.125rem;
   }
@@ -6779,6 +6878,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-17\@sm {
+    --margin-t: 1.0625rem;
+  }
+
+  .mr-17\@sm {
+    --margin-r: 1.0625rem;
+  }
+
+  .mb-17\@sm {
+    --margin-b: 1.0625rem;
+  }
+
+  .ml-17\@sm {
+    --margin-l: 1.0625rem;
+  }
+
+  .mh-17\@sm {
+    --margin-l: 1.0625rem;
+    --margin-r: 1.0625rem;
+  }
+
+  .mv-17\@sm {
+    --margin-t: 1.0625rem;
+    --margin-b: 1.0625rem;
+  }
+
+  .m-17\@sm {
+    --margin-t: 1.0625rem;
+    --margin-r: 1.0625rem;
+    --margin-b: 1.0625rem;
+    --margin-l: 1.0625rem;
   }
 
   .mt-18\@sm {
@@ -8300,9 +8432,14 @@ ol.list ol.list > li:before {
   }
 
   .footer-copyright {
-    position: static;
-    top: auto;
-    left: auto;
+    position: relative;
+    left: -0.25rem;
+    top: 0.1875rem;
+  }
+
+  .footer-socials {
+    position: relative;
+    top: 0.75rem;
   }
 
   .logo .icon,
@@ -8412,7 +8549,6 @@ ol.list ol.list > li:before {
   }
 
   .service-item__description {
-    position: relative;
     top: -0.8125rem;
     font-size: 1rem;
     line-height: 1.25rem;
@@ -8425,23 +8561,25 @@ ol.list ol.list > li:before {
   }
 
   .prices-title {
+    position: relative;
+    left: 0.9375rem;
+    margin-bottom: 3.5rem;
     text-align-last: left;
     grid-row: 1;
     grid-column: span 2;
   }
 
   .prices-list {
-    position: static;
-    top: auto;
+    top: -4.625rem;
     width: 20.75rem;
     padding: 2.125rem 2.5rem;
     margin: inherit;
     grid-row: 2;
     grid-column: 1;
+    gap: 2rem;
   }
 
   .prices-item {
-    height: min-content;
     padding: 1rem 2.5rem;
   }
 
@@ -8453,6 +8591,7 @@ ol.list ol.list > li:before {
     margin-bottom: auto;
     grid-row: 2;
     grid-column: 2;
+    margin-bottom: 0.8125rem;
   }
 
   .prices-description {
@@ -8466,11 +8605,15 @@ ol.list ol.list > li:before {
   }
 
   .prices-btn {
+    top: 0.5rem;
+    width: 10.125rem;
     margin-left: auto;
     margin-right: inherit;
   }
 
   .prices-leaves {
+    position: relative;
+    top: 0.625rem;
     max-width: 9.5rem;
     margin-left: auto;
     display: block;
@@ -8488,10 +8631,21 @@ ol.list ol.list > li:before {
   }
 
   .contacts-address {
-    width: auto;
+    width: 67%;
+  }
+
+  .contacts-address__title {
+    left: 0;
+    top: 0;
+  }
+
+  .contacts-address__expand {
+    left: -0.875rem;
   }
 
   .contacts-img {
+    position: relative;
+    left: 0.625rem;
     width: 12.5rem;
   }
 
@@ -8879,6 +9033,39 @@ ol.list ol.list > li:before {
     --padding-r: 1rem;
     --padding-b: 1rem;
     --padding-l: 1rem;
+  }
+
+  .pt-17\@md {
+    --padding-t: 1.0625rem;
+  }
+
+  .pr-17\@md {
+    --padding-r: 1.0625rem;
+  }
+
+  .pb-17\@md {
+    --padding-b: 1.0625rem;
+  }
+
+  .pl-17\@md {
+    --padding-l: 1.0625rem;
+  }
+
+  .ph-17\@md {
+    --padding-l: 1.0625rem;
+    --padding-r: 1.0625rem;
+  }
+
+  .pv-17\@md {
+    --padding-t: 1.0625rem;
+    --padding-b: 1.0625rem;
+  }
+
+  .p-17\@md {
+    --padding-t: 1.0625rem;
+    --padding-r: 1.0625rem;
+    --padding-b: 1.0625rem;
+    --padding-l: 1.0625rem;
   }
 
   .pt-18\@md {
@@ -10364,6 +10551,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-17\@md {
+    --margin-t: 1.0625rem;
+  }
+
+  .mr-17\@md {
+    --margin-r: 1.0625rem;
+  }
+
+  .mb-17\@md {
+    --margin-b: 1.0625rem;
+  }
+
+  .ml-17\@md {
+    --margin-l: 1.0625rem;
+  }
+
+  .mh-17\@md {
+    --margin-l: 1.0625rem;
+    --margin-r: 1.0625rem;
+  }
+
+  .mv-17\@md {
+    --margin-t: 1.0625rem;
+    --margin-b: 1.0625rem;
+  }
+
+  .m-17\@md {
+    --margin-t: 1.0625rem;
+    --margin-r: 1.0625rem;
+    --margin-b: 1.0625rem;
+    --margin-l: 1.0625rem;
   }
 
   .mt-18\@md {
@@ -11902,9 +12122,20 @@ ol.list ol.list > li:before {
     justify-content: space-between;
   }
 
+  .footer-copyright {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+
   .footer-rsschool {
     top: auto;
     left: 0.625rem;
+  }
+
+  .footer-socials {
+    position: static;
+    top: auto;
   }
 
   .logo .icon,
@@ -11960,6 +12191,7 @@ ol.list ol.list > li:before {
   }
 
   .about-title {
+    margin-left: 0;
     width: 28.9375rem;
   }
 
@@ -12013,20 +12245,19 @@ ol.list ol.list > li:before {
   }
 
   .prices-title {
+    position: static;
+    top: auto;
     grid-column: 1;
   }
 
   .prices-list {
-    gap: 2rem;
     position: relative;
+    top: auto;
     bottom: 0.5rem;
   }
 
-  .prices-item {
-    height: 3.125rem;
-  }
-
   .prices-info {
+    margin-bottom: 0;
     grid-row: span 2;
   }
 
@@ -12037,9 +12268,15 @@ ol.list ol.list > li:before {
   }
 
   .prices-btn {
+    top: -0.25rem;
     width: 10.125rem;
     font-size: 1.25rem;
     line-height: 1.625rem;
+  }
+
+  .prices-leaves {
+    position: static;
+    top: auto;
   }
 
   .contacts-inner {
@@ -12047,6 +12284,9 @@ ol.list ol.list > li:before {
   }
 
   .contacts-title {
+    position: relative;
+    top: 0.25rem;
+    left: -0.25rem;
     order: 2;
   }
 
@@ -12062,12 +12302,13 @@ ol.list ol.list > li:before {
   }
 
   .contacts-address__expand {
-    position: relative;
     top: 0.1875rem;
     right: 0.8125rem;
   }
 
   .contacts-img {
+    position: static;
+    left: auto;
     width: 25rem;
     margin-left: 0;
     margin-right: auto;
@@ -12458,6 +12699,39 @@ ol.list ol.list > li:before {
     --padding-r: 1rem;
     --padding-b: 1rem;
     --padding-l: 1rem;
+  }
+
+  .pt-17\@lg {
+    --padding-t: 1.0625rem;
+  }
+
+  .pr-17\@lg {
+    --padding-r: 1.0625rem;
+  }
+
+  .pb-17\@lg {
+    --padding-b: 1.0625rem;
+  }
+
+  .pl-17\@lg {
+    --padding-l: 1.0625rem;
+  }
+
+  .ph-17\@lg {
+    --padding-l: 1.0625rem;
+    --padding-r: 1.0625rem;
+  }
+
+  .pv-17\@lg {
+    --padding-t: 1.0625rem;
+    --padding-b: 1.0625rem;
+  }
+
+  .p-17\@lg {
+    --padding-t: 1.0625rem;
+    --padding-r: 1.0625rem;
+    --padding-b: 1.0625rem;
+    --padding-l: 1.0625rem;
   }
 
   .pt-18\@lg {
@@ -13943,6 +14217,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-17\@lg {
+    --margin-t: 1.0625rem;
+  }
+
+  .mr-17\@lg {
+    --margin-r: 1.0625rem;
+  }
+
+  .mb-17\@lg {
+    --margin-b: 1.0625rem;
+  }
+
+  .ml-17\@lg {
+    --margin-l: 1.0625rem;
+  }
+
+  .mh-17\@lg {
+    --margin-l: 1.0625rem;
+    --margin-r: 1.0625rem;
+  }
+
+  .mv-17\@lg {
+    --margin-t: 1.0625rem;
+    --margin-b: 1.0625rem;
+  }
+
+  .m-17\@lg {
+    --margin-t: 1.0625rem;
+    --margin-r: 1.0625rem;
+    --margin-b: 1.0625rem;
+    --margin-l: 1.0625rem;
   }
 
   .mt-18\@lg {
@@ -15775,6 +16082,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-17\@xl {
+    --padding-t: 1.0625rem;
+  }
+
+  .pr-17\@xl {
+    --padding-r: 1.0625rem;
+  }
+
+  .pb-17\@xl {
+    --padding-b: 1.0625rem;
+  }
+
+  .pl-17\@xl {
+    --padding-l: 1.0625rem;
+  }
+
+  .ph-17\@xl {
+    --padding-l: 1.0625rem;
+    --padding-r: 1.0625rem;
+  }
+
+  .pv-17\@xl {
+    --padding-t: 1.0625rem;
+    --padding-b: 1.0625rem;
+  }
+
+  .p-17\@xl {
+    --padding-t: 1.0625rem;
+    --padding-r: 1.0625rem;
+    --padding-b: 1.0625rem;
+    --padding-l: 1.0625rem;
+  }
+
   .pt-18\@xl {
     --padding-t: 1.125rem;
   }
@@ -17258,6 +17598,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-17\@xl {
+    --margin-t: 1.0625rem;
+  }
+
+  .mr-17\@xl {
+    --margin-r: 1.0625rem;
+  }
+
+  .mb-17\@xl {
+    --margin-b: 1.0625rem;
+  }
+
+  .ml-17\@xl {
+    --margin-l: 1.0625rem;
+  }
+
+  .mh-17\@xl {
+    --margin-l: 1.0625rem;
+    --margin-r: 1.0625rem;
+  }
+
+  .mv-17\@xl {
+    --margin-t: 1.0625rem;
+    --margin-b: 1.0625rem;
+  }
+
+  .m-17\@xl {
+    --margin-t: 1.0625rem;
+    --margin-r: 1.0625rem;
+    --margin-b: 1.0625rem;
+    --margin-l: 1.0625rem;
   }
 
   .mt-18\@xl {
@@ -19086,6 +19459,39 @@ ol.list ol.list > li:before {
     --padding-l: 1rem;
   }
 
+  .pt-17\@xxl {
+    --padding-t: 1.0625rem;
+  }
+
+  .pr-17\@xxl {
+    --padding-r: 1.0625rem;
+  }
+
+  .pb-17\@xxl {
+    --padding-b: 1.0625rem;
+  }
+
+  .pl-17\@xxl {
+    --padding-l: 1.0625rem;
+  }
+
+  .ph-17\@xxl {
+    --padding-l: 1.0625rem;
+    --padding-r: 1.0625rem;
+  }
+
+  .pv-17\@xxl {
+    --padding-t: 1.0625rem;
+    --padding-b: 1.0625rem;
+  }
+
+  .p-17\@xxl {
+    --padding-t: 1.0625rem;
+    --padding-r: 1.0625rem;
+    --padding-b: 1.0625rem;
+    --padding-l: 1.0625rem;
+  }
+
   .pt-18\@xxl {
     --padding-t: 1.125rem;
   }
@@ -20569,6 +20975,39 @@ ol.list ol.list > li:before {
     --margin-r: 1rem;
     --margin-b: 1rem;
     --margin-l: 1rem;
+  }
+
+  .mt-17\@xxl {
+    --margin-t: 1.0625rem;
+  }
+
+  .mr-17\@xxl {
+    --margin-r: 1.0625rem;
+  }
+
+  .mb-17\@xxl {
+    --margin-b: 1.0625rem;
+  }
+
+  .ml-17\@xxl {
+    --margin-l: 1.0625rem;
+  }
+
+  .mh-17\@xxl {
+    --margin-l: 1.0625rem;
+    --margin-r: 1.0625rem;
+  }
+
+  .mv-17\@xxl {
+    --margin-t: 1.0625rem;
+    --margin-b: 1.0625rem;
+  }
+
+  .m-17\@xxl {
+    --margin-t: 1.0625rem;
+    --margin-r: 1.0625rem;
+    --margin-b: 1.0625rem;
+    --margin-l: 1.0625rem;
   }
 
   .mt-18\@xxl {
