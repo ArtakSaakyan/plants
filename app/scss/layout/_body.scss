@@ -19,4 +19,8 @@ body {
     font-size: size(20);
     line-height: size(30);
   }
+
+  &.hidden {
+    overflow: hidden;
+  }
 }
