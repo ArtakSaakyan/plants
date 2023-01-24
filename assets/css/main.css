@@ -1334,6 +1334,7 @@ ol.list ol.list > li:before {
   width: 100%;
   height: 100%;
   border-radius: 1.25rem 1.25rem 0 0;
+  object-fit: cover;
 }
 
 .service-item__info {
