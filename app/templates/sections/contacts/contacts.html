@@ -2,10 +2,37 @@
   <div class="container">
     <div class="contacts-inner pt-25 pt-40@md pt-60@lg">
       <h2 class="contacts-title subtitle mb-80 mb-100@md mb-0@lg">Contact us</h2>
-      <div class="contacts-address mh-auto mb-132 mb-250@md mr-0@lg mb-0@lg mt-88@lg ml-64@lg">
-        <p class="contacts-address__title">City</p>
-        <div class="contacts-address__expand">
-          <i class="icon"></i>
+      <div id="contactsAddress" class="contacts-address mh-auto mb-132 mb-250@md mr-0@lg mb-0@lg mt-88@lg ml-64@lg">
+        <div id="contactsAddressInfo" class="contacts-address__info">
+          <p class="contacts-address__title">City</p>
+          <div class="contacts-address__expand">
+            <i class="icon"></i>
+          </div>
+        </div>
+
+        <div class="contacts-address__list">
+          <p class="contacts-address__item" city="Canandaigua, NY" phone="+1	585	393 0001" address="151 Charlotte Street">Canandaigua, NY</p>
+          <p class="contacts-address__item" city="New York City" phone="+1	212	456 0002" address="9 East 91st Street">New York City</p>
+          <p class="contacts-address__item" city="Yonkers, NY" phone="+1	914	678 0003" address="511 Warburton Ave">Yonkers, NY</p>
+          <p class="contacts-address__item" city="Sherrill, NY" phone="+1	315	908 0004" address="14 WEST Noyes BLVD">Sherrill, NY</p>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-info__list">
+            <div class="contact-info__item">
+              <p class="contact-info__item-title">City:</p>
+              <p id="contactCity" class="contact-info__item-description"></p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__item-title">Phone:</p>
+              <p id="contactPhone" class="contact-info__item-description"></p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__item-title">Office address:</p>
+              <p id="contactAddress" class="contact-info__item-description"></p>
+            </div>
+          </div>
+          <button id="contactCall" class="contact-info__callback btn btn-outline--orange">Call us</button>
         </div>
       </div>
       <div class="contacts-img">

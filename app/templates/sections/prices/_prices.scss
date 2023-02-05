@@ -69,7 +69,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: size(50);
+  // height: size(50);
   padding: size(16) size(30);
   background: $body;
   border-radius: size(20);
@@ -83,6 +83,33 @@
   &:hover {
     background-color: #D6E7D2;
   }
+
+  &.open {
+    flex-direction: column;
+    height: 100%;
+    background: #D6E7D2;
+
+    .prices-item__select {
+      padding-bottom: size(6);
+      margin-bottom: size(6);
+      border-bottom: size(0.5) solid #AEA1A1;
+    }
+
+    .prices-item__expand .icon::after {
+      transform: translate(-50%, -50%) rotate(180deg);
+    }
+
+    .prices-item__info {
+      display: block;
+    }
+  }
+}
+
+.prices-item__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .prices-item__title {
@@ -116,6 +143,47 @@
     }
   }
 }
+
+.prices-item__info {
+  display: none;
+}
+
+.prices-item__info-description {
+  margin: 0;
+  margin-bottom: size(6);
+  font-weight: 300;
+  font-size: size(10);
+  line-height: size(10);
+}
+
+.prices-item__info-price {
+  margin: 0;
+  margin-bottom: size(12);
+  font-weight: 700;
+  font-size: size(12);
+  line-height: size(20);
+
+  span {
+    font-size: size(20);
+    color: $orange;
+  }
+}
+
+.prices-item__info-order {
+  display: block;
+  width: size(86);
+  text-align: center;
+  background: #FFFFFF;
+  border: none;
+  border-radius: size(10);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: size(14);
+  line-height: size(20);
+  color: $title;
+  cursor: pointer;
+}
+
 
 .prices-info {
   margin-bottom: size(-8);
