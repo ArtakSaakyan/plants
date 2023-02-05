@@ -34,7 +34,6 @@ window.onload = function() {
     serviceItemList.forEach(item => {
       let itemService = item.getAttribute('service')
       if (categories.includes(itemService) !== true) {
-        console.log(item)
         item.classList.add('blur')
       }
     })
@@ -59,7 +58,6 @@ window.onload = function() {
     item.classList.toggle('active')
 
     removeServiceBlur()
-    console.log(serviceCategory.length)
     if (serviceCategory.length > 0) {
       updateServiceList(serviceCategory)
     }
